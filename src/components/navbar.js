@@ -26,9 +26,19 @@ const Navbar = () => {
             height: '0vh',
             width: '100vw',
 
+
         }
     }
     const [showMenu, setShowMenu] = useState(false);
+   function handleLinkClick(e, id) {
+    e.preventDefault();
+    setShowMenu(false);
+    // Correct usage for scrolling into view:
+    document.querySelector(id).scrollIntoView({
+        behavior: 'smooth'
+    });
+}
+
     function HandleMenu() {
         setShowMenu(!showMenu);
     };
@@ -51,13 +61,13 @@ const Navbar = () => {
 
                     <ul className={showMenu ? 'start' : ''}>
                         <li className="animation_1_1">
-                            <Link  onClick={()=>setShowMenu(false)} href="/" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;0&#62;</span>Home</Link>
+                            <Link  href="/" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;0&#62;</span>Home</Link>
                         </li>
                         <li className="animation_1_1">
-                            <Link  onClick={()=>setShowMenu(false)} href="/#about-us" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;1&#62;</span>O nas</Link>
+                            <Link  onClick={(e)=>handleLinkClick(e,'#about-us')} href="/#about-us" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;1&#62;</span>O nas</Link>
                         </li>
                         <li className="animation_1_1">
-                            <Link  onClick={()=>setShowMenu(false)} href="/#servicesV2" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;2&#62;</span>Usługi</Link>
+                            <Link  onClick={(e)=>handleLinkClick(e,'#servicesV2')} href="/#servicesV2" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;2&#62;</span>Usługi</Link>
                         </li>
                         
                         <li className="animation_1_1">
