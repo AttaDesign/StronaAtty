@@ -1,0 +1,591 @@
+.desktop-2-child,
+.projektujemy {
+    position: relative;
+    max-width: 100%;
+}
+
+.desktop-2-child {
+    width: 1440px;
+    height: 1024px;
+    background-color: var(--color-black);
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    display: none;
+}
+
+
+
+.projektujemy {
+    margin: 0;
+    width: 484px;
+    height: 91px;
+    font-size: inherit;
+    font-weight: 200;
+    font-family: inherit;
+    display: inline-block;
+    flex-shrink: 0;
+    backdrop-filter: blur(4px);
+    text-shadow: 1px 0 0#000, 0 1px 0#000, -1px 0 0#000, 0-1px 0#000;
+    z-index: 1;
+}
+
+.frame-child,
+.layerblur {
+    position: absolute;
+    margin: 0 !important;
+}
+
+.frame-child {
+    height: 460px;
+    width: 1px;
+    top: -37px;
+    left: calc(50% - 0.5px);
+    background: linear-gradient(180deg, #000, #fff 45%, #0c0c0c);
+    z-index: 1;
+}
+
+.layerblur {
+    height: 400px;
+    width: 400px;
+    bottom: -11px;
+    left: 312.56px;
+    border-radius: 20px;
+    background: linear-gradient(180deg, #ff0505, #0047ff);
+    filter: blur(150px);
+    transform: rotate(0.51deg);
+    transform-origin: 0 0;
+    z-index: 2;
+}
+
+.witryny-biznezowe-child {
+    height: 187.8px;
+    width: 427.4px;
+    position: relative;
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    display: none;
+    max-width: 100%;
+}
+
+.additional-frames-child {
+    position: absolute;
+    top: 30.35px;
+    left: 0;
+    border-radius: var(--br-9xs);
+    background: linear-gradient(180deg, #add3ff, #ced8ff);
+    width: 62.7px;
+    height: 50.7px;
+}
+
+.background-rectangle {
+    position: absolute;
+    top: -0.05px;
+    left: 24.9px;
+    border-radius: var(--br-9xs);
+    background: linear-gradient(180deg, #7ba0ff 10.5%, #fff);
+    width: 59px;
+    height: 56.2px;
+    z-index: 1;
+}
+
+.additional-frames {
+    height: 81px;
+    flex: 1;
+    position: relative;
+}
+
+.kwadra {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+
+.landing-page-frames {
+    width: 84px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 4px 0 0;
+    box-sizing: border-box;
+}
+
+.blank-line,
+.witryny-biznesowe1 {
+    margin: 0;
+}
+
+.witryny-biznesowe {
+    align-self: stretch;
+    height: 31.1px;
+    position: relative;
+    display: inline-block;
+    flex-shrink: 0;
+    z-index: 1;
+}
+
+.jasno-okrelon-strategi,
+.profilem-twojego-klienta,
+.sprzeday,
+.stworzymy-stron-zgodn {
+    margin: 0;
+}
+
+.stworzymy-stron-zgodn-container {
+    margin-top: -3px;
+    flex: 1;
+    position: relative;
+    line-height: 140%;
+    z-index: 1;
+}
+
+.business-website-frame,
+.client-remember-frame {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.client-remember-frame {
+    width: 220px;
+    height: 87px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.business-website-frame {
+    flex: 1;
+    flex-direction: column;
+    min-width: 153px;
+}
+
+.landing-child,
+.witryny-biznezowe {
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    max-width: 100%;
+}
+
+.witryny-biznezowe {
+    width: 428px;
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 199.8px);
+    left: calc(50% - 511.45px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-20xl) 16px 30px 44px;
+    box-sizing: border-box;
+    gap: 48px;
+}
+
+.landing-child {
+    height: 187.8px;
+    width: 427.4px;
+    position: relative;
+    display: none;
+}
+
+.trjk-icon {
+    width: 90.6px;
+    height: 90.6px;
+    position: relative;
+    z-index: 1;
+}
+
+.trjk-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 5px 0 0;
+}
+
+.landing-page,
+.zaprojektujemy-go-tak {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.landing-page {
+    width: 171.2px;
+    font-weight: 900;
+}
+
+.zaprojektujemy-go-tak {
+    height: 89px;
+    flex: 1;
+    line-height: 140%;
+}
+
+.landing-page-parent,
+.zaprojektujemy-go-tak-by-twj-wrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.zaprojektujemy-go-tak-by-twj-wrapper {
+    align-self: stretch;
+    flex-direction: row;
+    padding: 0 0 0 3px;
+}
+
+.landing-page-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 1px 0;
+    min-width: 149px;
+}
+
+.landing,
+.witryny-biznezowe-item {
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    max-width: 100%;
+}
+
+.landing {
+    width: calc(100% - 595.5px);
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% - 199.8px);
+    right: 0.5px;
+    left: 595px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-20xl) 31px var(--padding-16xl) 38px;
+    box-sizing: border-box;
+    gap: 37px;
+}
+
+.witryny-biznezowe-item {
+    height: 187.8px;
+    width: 427.4px;
+    position: relative;
+    display: none;
+}
+
+.koa-icon {
+    width: 82.1px;
+    height: 83px;
+    position: relative;
+    z-index: 1;
+}
+
+.koa-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 9px 0 0;
+}
+
+.sklepy-internetowe,
+.tworzymy-idealne-landingi {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.sklepy-internetowe {
+    align-self: stretch;
+    height: 31px;
+    flex-shrink: 0;
+}
+
+.tworzymy-idealne-landingi {
+    margin-top: -4px;
+    height: 89px;
+    flex: 1;
+    line-height: 140%;
+}
+
+.tworzymy-idealne-landingi-ktr-wrapper {
+    align-self: stretch;
+    height: 85px;
+    flex-direction: row;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sklepy-internetowe-parent,
+.tworzymy-idealne-landingi-ktr-wrapper,
+.witryny-biznezowe1 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.sklepy-internetowe-parent {
+    flex: 1;
+    flex-direction: column;
+    min-width: 142px;
+}
+
+.witryny-biznezowe1 {
+    width: calc(100% - 595.5px);
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% + 12.2px);
+    right: 595.5px;
+    left: 0;
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    flex-direction: row;
+    padding: var(--padding-16xl) var(--padding-13xl) 36px 43px;
+    box-sizing: border-box;
+    gap: 52px;
+    max-width: 100%;
+}
+
+.landing-item,
+.optymaliza-icon {
+    position: relative;
+    max-width: 100%;
+}
+
+.landing-item {
+    height: 187.8px;
+    width: 427.4px;
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    display: none;
+}
+
+.optymaliza-icon {
+    align-self: stretch;
+    flex: 1;
+    overflow: hidden;
+    max-height: 100%;
+    z-index: 1;
+}
+
+.optymaliza-wrapper {
+    height: 87px;
+    width: 94px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: 7px 0 0;
+    box-sizing: border-box;
+}
+
+.seo-oraz-aplikacje,
+.zaprojektujemy-go-tak1 {
+    position: relative;
+    display: inline-block;
+    z-index: 1;
+}
+
+.seo-oraz-aplikacje {
+    width: 171.2px;
+    font-weight: 900;
+}
+
+.zaprojektujemy-go-tak1 {
+    align-self: stretch;
+    height: 89px;
+    line-height: 140%;
+    flex-shrink: 0;
+}
+
+.landing1,
+.seo-oraz-aplikacje-parent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+.seo-oraz-aplikacje-parent {
+    flex: 1;
+    flex-direction: column;
+    gap: 1px 0;
+    min-width: 148px;
+}
+
+.landing1 {
+    width: calc(100% - 595.5px);
+    margin: 0 !important;
+    position: absolute;
+    top: calc(50% + 12.2px);
+    right: 0.5px;
+    left: 595px;
+    border-radius: var(--br-base);
+    background: linear-gradient(180deg,
+            #0c0c0c,
+            rgba(12, 12, 12, 0.19) 81.5%,
+            rgba(12, 12, 12, 0));
+    flex-direction: row;
+    padding: var(--padding-16xl) var(--padding-13xl) var(--padding-20xl) 55px;
+    box-sizing: border-box;
+    gap: 19px;
+    max-width: 100%;
+}
+
+.rectangle-parent,
+.witryny-biznezowe-parent {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    max-width: 100%;
+}
+
+.witryny-biznezowe-parent {
+    height: 399.6px;
+    flex: 1;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 3;
+}
+
+.pas {
+    text-wrap: wrap;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.rectangle-parent {
+    width: 1023px;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: var(--font-size-base);
+    color: var(--color-white);
+    font-family: var(--source);
+}
+
+.free-consultation-label-child {
+    height: 47px;
+    width: 213px;
+    position: relative;
+    border-radius: var(--br-21xl);
+    background: linear-gradient(180deg,
+            #339dff,
+            #1e93ff 12.5%,
+            #1e93ff 82%,
+            #3ba1ff);
+    box-shadow: 0 2px 97.3px -5px #0095d5;
+    border: 1px solid var(--color-rosybrown);
+    box-sizing: border-box;
+    display: none;
+}
+
+.darmowa-konsultacja,
+.free-consultation-label {
+    &:hover{
+        scale: 105%;
+    }
+    &:active{
+        scale: 90%;
+    }
+    transition: all 0.2s ease-in-out;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.darmowa-konsultacja {
+    height: 44px;
+    position: relative;
+    z-index: 2;
+}
+
+.free-consultation-label {
+    border-radius: var(--br-21xl);
+    background: linear-gradient(180deg,
+            #339dff,
+            #1e93ff 12.5%,
+            #1e93ff 82%,
+            #3ba1ff);
+    box-shadow: 0 2px 97.3px -5px #0095d5;
+    border: 1px solid var(--color-rosybrown);
+    flex-direction: row;
+    padding: 2px var(--padding-2xl) 1px 18px;
+    white-space: nowrap;
+    z-index: 1;
+    font-size: var(--font-size-base);
+}
+
+.desktop-2 {
+    width: 100%;
+    position: relative;
+    background-color: black;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+    border: 1px solid var(--color-black);
+    box-sizing: border-box;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    padding: 109px 20px 208px var(--padding-2xl);
+    gap: 85px 0;
+    letter-spacing: normal;
+    text-align: center;
+    font-size: 60px;
+    height: 100vh;
+    color: var(--color-white);
+    font-family: var(--source);
+}
+
+@media screen and (max-width: 1050px) {
+    .desktop-2 {
+        gap: 85px 0;
+    }
+}
+
+@media screen and (max-width: 1000px) {
+    .projektujemy {
+        font-size: 48px;
+    }
+}
+
+@media screen and (max-width: 725px) {
+    .desktop-2 {
+        gap: 85px 0;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    .projektujemy {
+        font-size: 36px;
+    }
+    .frame-child{
+        display: none;
+    }
+   
+    .witryny-biznezowe-parent{
+        flex-direction: column;
+    }
+
+   
+}

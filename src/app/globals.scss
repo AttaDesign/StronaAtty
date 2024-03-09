@@ -1,0 +1,217 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior:smooth;
+  scroll-snap-type: y proximity;  /* y or x direction, 'mandatory' will snap directly, 'proximity' will snap when near to the section */
+  overflow-x: hidden;
+}
+@mixin center_flex() {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+img{
+  height: auto;
+  width: auto;
+}
+.unselectable{
+  -webkit-user-select: none; /* Safari */        
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+/Edge */
+user-select: none; /* Standard */
+}
+$fs: 18px;
+$darkblue: #142433;
+$white: #ffffff;
+$blue: #004B8F;
+:root {
+  /* fonts */
+
+  /* font sizes */
+  --font-size-base: 16px;
+
+  /* Colors */
+  --color-black: #000;
+  --color-rosybrown: rgba(151, 114, 114, 0.24);
+  --color-white: #fff;
+
+  /* Gaps */
+  --gap-66xl: 85px;
+  --gap-12xs: 1px;
+
+  /* Paddings */
+  --padding-2xl: 21px;
+  --padding-16xl: 35px;
+  --padding-13xl: 32px;
+  --padding-20xl: 39px;
+
+  /* Border radiuses */
+  --br-21xl: 40px;
+  --br-base: 16px;
+  --br-9xs: 4px;
+}
+
+@mixin padding-x($prop) {
+  padding-left: $prop;
+  padding-right: $prop;
+}
+
+@mixin padding-y($prop) {
+  padding-top: $prop;
+  padding-bottom: $prop;
+}
+
+@mixin margin-x($prop) {
+  margin-left: $prop;
+  margin-right: $prop;
+}
+
+@mixin margin-y($prop) {
+  margin-top: $prop;
+  margin-bottom: $prop;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0px;
+  margin: 0px;
+}
+
+.dymek {
+  background-image: linear-gradient(to bottom left, rgb(0, 0, 0) 20%, rgb(81, 206, 255) 100%);
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  position: absolute;
+  box-shadow: rgba(6, 6, 109, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, rgba(248, 4, 4, 0.07) 0px 1px 2px, rgba(10, 21, 173, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(180, 7, 7, 0.07) 0px 16px 32px, rgba(158, 2, 2, 0.07) 0px 32px 64px;
+  bottom: 15px;
+  right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.3s ease-out;
+}
+
+.z-0 {
+  z-index: 0;
+}
+
+.z-down {
+  z-index: 5;
+}
+
+.z-middle {
+  z-index: 10;
+}
+.line2{
+  margin: 15px;        
+  width: 2px;
+  content: '';
+  z-index: 10;
+}
+
+.z-top {
+  z-index: 15;
+}
+.sourceFont{
+  font-family: var(--source);
+}
+.orbiFont{
+  font-family: var(--orbi);
+}
+.dymek:hover {
+  cursor: pointer;
+  box-shadow: rgba(6, 6, 109, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset, 0px 0px 124px 0px rgb(112, 236, 255);
+  scale: 105%;
+}
+
+
+::-webkit-scrollbar {
+  width: 5px; /* Thin scrollbar width */
+}
+
+y::-webkit-scrollbar-track {
+  background: black; /* Scrollbar track color (black) */
+}
+::-webkit-scrollbar-thumb {
+  background-color: gray; /* Scrollbar handle color (gray) */
+  border-radius: 20px; /* Rounded corners for the scrollbar handle */
+}
+
+body {
+  background-color: rgb(0, 0, 0);
+  overflow-x: hidden;
+  display: flex;
+  flex-direction: column;
+}
+
+.background {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+  justify-content: center;
+  display: flex;
+  background-color: black;
+  
+}
+
+.container {
+  width: 1320px;
+}
+
+.burger {
+  width: 40px;
+  position: absolute;
+  top: 15px;
+  right: 15px;
+  flex-basis: 10%;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+
+  span {
+    align-items: flex-end;
+    transform: translateY(50%);
+    width: 25px;
+    border-top: 2px solid $white;
+    padding: 3px;
+  }
+}
+
+.overlay-top{
+  background-image: linear-gradient(to top, rgb(24, 24, 26), rgb(11, 33, 53));
+  position: absolute;
+  background-position: 200% 200%;
+  background-size: 120% 120%;
+
+  top: 0;
+  height: 3%;
+  width: 100vw;
+  animation: moveGradient 3s infinite;
+}
+.overlay-top::after{
+  content: '';
+  width: 100%;
+  height: 400%;
+  background-color: transparent;
+  position: absolute;
+  backdrop-filter: blur(30px);
+}
+
+@keyframes moveGradient {
+  0% {
+    background-position: 0% 0%;
+  }
+
+  50% {
+    background-position: 100% 100%;
+  }
+
+  100% {
+    background-position: 0% 0%;
+
+  }
+}

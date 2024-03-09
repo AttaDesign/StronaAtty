@@ -1,0 +1,33 @@
+.main{
+    display: flex;
+    height: auto;
+    align-items: flex-end;
+    justify-content: center;
+    margin-bottom: auto;
+    color: rgb(230, 230, 230);
+}
+
+.body{
+    justify-content: left;
+    width:450px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.body p{
+    font-size: 18px;
+    margin: 4px;
+    font-weight: 400;
+}
+
+.body span{
+    opacity: 1;
+}
+
+@media (max-width: 640px) {
+    .body{
+        justify-content: start;
+        margin-left: 25px;
+        width: 300px;
+    }
+}

@@ -1,0 +1,262 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    text-wrap: nowrap;
+}
+
+$window-color: rgba(255, 255, 255, 0.096);
+
+.menu {
+    backdrop-filter: blur(9px);
+    overflow: hidden;
+    flex-direction: column;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    z-index: 100;
+
+    .menu_box {
+        width: 50%;
+        height: auto;
+        font-size: 16px;
+        background-color: rgba(0, 0, 0, 0.664);
+        padding: 45px 60px 45px 60px;
+        z-index: 102;
+        border-radius: 0px 0px 5px 5px;
+        border-bottom: 1px solid $window-color;
+        border-left: 1px solid $window-color;
+        border-right: 1px solid $window-color;
+
+        .numb {
+            transform: translateX(-10px);
+            line-height: 28px;
+            font-size: 16px;
+            font-weight: 300;
+            color: rgb(0, 255, 60);
+        }
+
+        p {
+            transition: 0.3s all ease-in-out;
+            line-height: 28px;
+            font-size: 16px;
+            font-weight: 300;
+        }
+
+        $codeingtime: 1.5s;
+        $realcodeingtime: 0.23s;
+
+        .animation_1 {
+            overflow: hidden;
+            width: 0%;
+            animation: code $codeingtime forwards;
+        }
+
+        .animation_2 {
+            overflow: hidden;
+            width: 0%;
+            animation: code $codeingtime forwards $realcodeingtime*6;
+        }
+
+        .start .animation_1_1 {
+            overflow: hidden;
+            width: 0%;
+
+            &:first-child {
+                animation: code $codeingtime forwards $realcodeingtime;
+            }
+
+            &:nth-child(2) {
+                animation: code $codeingtime forwards $realcodeingtime*2;
+            }
+
+            &:nth-child(3) {
+                animation: code $codeingtime forwards $realcodeingtime*3;
+            }
+
+            &:nth-child(4) {
+                animation: code $codeingtime forwards $realcodeingtime*4;
+            }
+
+            &:nth-child(5) {
+                animation: code $codeingtime forwards $realcodeingtime*5;
+            }
+        }
+
+        .start .animation_1_2 {
+            overflow: hidden;
+            width: 0%;
+
+            &:first-child {
+                animation: code $codeingtime forwards $realcodeingtime*7;
+            }
+
+            &:nth-child(2) {
+                animation: code $codeingtime forwards $realcodeingtime*8;
+            }
+
+            &:nth-child(3) {
+                animation: code $codeingtime forwards $realcodeingtime*9;
+            }
+
+            &:nth-child(4) {
+                animation: code $codeingtime forwards $realcodeingtime*10;
+            }
+
+            &:nth-child(5) {
+                animation: code $codeingtime forwards $realcodeingtime*11;
+            }
+        }
+
+        .start .animation_1_2 {
+            overflow: hidden;
+            width: 0%;
+            animation: code 3s forwards;
+        }
+
+    }
+
+    .topbar {
+        border-left: 1px solid $window-color;
+        border-top: 1px solid $window-color;
+        border-right: 1px solid $window-color;
+
+        transform: translateY(3px);
+        z-index: 101;
+        background-color: $window-color;
+        width: 50%;
+        height: 20px;
+        border-radius: 5px;
+        position: relative;
+
+        .circle {
+            width: 9px;
+            height: 9px;
+            border-radius: 4.5px;
+            position: absolute;
+            top: 3.5px;
+            right: 4px;
+            background-color: red;
+            transition: box-shadow 0.3s ease-out;
+
+            &:hover {
+                box-shadow: 0px 0px 10px 0px red;
+            }
+
+            &:nth-child(2) {
+                right: 18px;
+                background-color: orange;
+
+                &:hover {
+                    box-shadow: 0px 0px 10px 0px orange;
+                }
+            }
+
+            &:nth-child(3) {
+                &:hover {
+                    box-shadow: 0px 0px 10px 0px yellowgreen;
+                }
+
+                right: 34px;
+                background-color: yellowgreen;
+            }
+        }
+    }
+
+}
+
+a:hover {
+    cursor: pointer;
+}
+
+.menu_link:hover {
+
+    transform: translateX(20px);
+    text-shadow: 0px 0px 4px rgb(255, 255, 255);
+
+
+    .numb {
+        text-shadow: 1px 1px 12px yellowgreen, 1px 0px 1px rgb(0, 255, 0);
+    }
+
+    background-color: rgba(26, 25, 25, 0.274);
+
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s all ease-in-out;
+    line-height: 28px;
+    font-size: 16px;
+    font-weight: 300;
+}
+
+.burger {
+    z-index: 101;
+    top: 8px;
+    right: 8px;
+    display: flex;
+    justify-content: center;
+    width: 30px;
+    height: auto;
+    padding: 0;
+    margin: 3px;
+    align-items: center;
+    transition: scale 0.3s ease-out;
+
+    &:hover {
+        scale: 110%;
+    }
+
+    span {
+        padding: 0;
+        margin: 4px;
+        width: 100%;
+        border-top: 2px solid white;
+    }
+}
+
+@keyframes code {
+    0% {
+        width: 0%;
+    }
+
+    100% {
+        width: 100%;
+    }
+}
+
+@media (max-width: 640px) {
+    .menu {
+
+
+        .menu_box {
+            width: 80vw;
+        }
+    }
+}
+
+@media (max-width: 414px) {
+    .row {
+        display: flex;
+        flex-direction: row;
+        transition: 0.3s all ease-in-out;
+        line-height: 28px;
+        font-size: 12px;
+        font-weight: 300;
+    }
+    .menu {
+
+
+        .menu_box {
+            font-size: 12px;
+            width: 90vw;
+            padding: 30px 20px 45px 20px;
+
+        }
+    }
+}
