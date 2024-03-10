@@ -155,11 +155,13 @@ export default function Herotext() {
       </p>
       <div className="flex items-center justify-center gap-3 sm:gap-3">
 
-      <Link href='/#about-us' className="cta unselectable ">
+      <div onClick={()=>(document.querySelector('#about-us').scrollIntoView({
+        behavior: 'smooth'
+    }))} className="cta unselectable ">
           <div className="text m-2 sm:m-0"  >
             Poznaj Nas <i className="fa-solid fa-arrow-right-long"></i>
           </div>
-      </Link>
+      </div>
       </div>
       
     </div>
