@@ -49,48 +49,58 @@ export default function Herotext() {
       stringworld = ''
 
       for (let i = 0; i < 10; i++) {
-        if (stringWe[0] != '0' || '1'  ) {
-          if(stringWe.length < 9){
-          stringWe += (znaki[Math.round(Math.random())])
-        }}
-        if (string[0] != '0' || '1' ) {
-          if(string.length < 7){
-          string += (znaki[Math.round(Math.random())])
-        }}
-        if (string1[0] != '0' || '1' ) {
-          if(string1.length < 5){
-          string1 += (znaki[Math.round(Math.random())])
-        }}
-        if (stringand[0] != '0' || '1' ) {
-        if(stringand.length < 6){
-          stringand += (znaki[Math.round(Math.random())])
-        }}
+        if (stringWe[0] != '0' || '1') {
+          if (stringWe.length < 9) {
+            stringWe += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (string[0] != '0' || '1') {
+          if (string.length < 7) {
+            string += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (string1[0] != '0' || '1') {
+          if (string1.length < 5) {
+            string1 += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringand[0] != '0' || '1') {
+          if (stringand.length < 6) {
+            stringand += (znaki[Math.round(Math.random())])
+          }
+        }
 
-        if (string2[0] != '0' || '1' ) {
-        if(string2.length < 2){
-          string2 += (znaki[Math.round(Math.random())])
-        }}
-        if (stringsolutions[0]!= '0' || '1') {
-        if(stringsolutions.length <7 ){
-          stringsolutions += (znaki[Math.round(Math.random())])
-        }}
-        if (stringfor2[0] != '0' || '1' ) {
-        if(stringfor2.length < 2){
-          stringfor2 += (znaki[Math.round(Math.random())])
-        }}
-        if (stringclients[0] != '0' || '1' ) {
-        if(stringclients.length < 7){
-          stringclients += (znaki[Math.round(Math.random())])
-        }}
-        if (stringaround[0] != '0' || '1' ) {
-        if(stringaround.length < 6){
-          stringaround += (znaki[Math.round(Math.random())])
-        }}
-        if (stringthe[0] != '0' || '1' ) {
-        if(stringthe.length < 9){
-          stringthe += (znaki[Math.round(Math.random())])
-        }}
-        
+        if (string2[0] != '0' || '1') {
+          if (string2.length < 2) {
+            string2 += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringsolutions[0] != '0' || '1') {
+          if (stringsolutions.length < 7) {
+            stringsolutions += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringfor2[0] != '0' || '1') {
+          if (stringfor2.length < 2) {
+            stringfor2 += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringclients[0] != '0' || '1') {
+          if (stringclients.length < 7) {
+            stringclients += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringaround[0] != '0' || '1') {
+          if (stringaround.length < 6) {
+            stringaround += (znaki[Math.round(Math.random())])
+          }
+        }
+        if (stringthe[0] != '0' || '1') {
+          if (stringthe.length < 9) {
+            stringthe += (znaki[Math.round(Math.random())])
+          }
+        }
+
       }
 
       setWe(stringWe)
@@ -106,40 +116,40 @@ export default function Herotext() {
       setDevelop(string2)
 
       iterrations += 1
-      if (iterrations >= 3*time) {
+      if (iterrations >= 3 * time) {
         setWe('Stworzymy')
       }
-      if (iterrations >= 6*time) {
+      if (iterrations >= 6 * time) {
         setDesign('stronę,')
       }
 
-      if (iterrations >= 9*time) {
+      if (iterrations >= 9 * time) {
         setDevelop('która')
       }
-      if (iterrations >= 12*time) {
+      if (iterrations >= 12 * time) {
         setAnd('pomoże')
       }
-      if (iterrations >= 16*time) {
+      if (iterrations >= 16 * time) {
         setDeploy('ci')
       }
-      if (iterrations >= 19*time) {
+      if (iterrations >= 19 * time) {
         setSolutions('dotrzeć')
       }
 
-      if (iterrations >= 21*time) {
+      if (iterrations >= 21 * time) {
         setFor2('do')
       }
-      if (iterrations >= 23*time) {
+      if (iterrations >= 23 * time) {
         setClients('większej')
       }
-      if (iterrations >= 24*time) {
+      if (iterrations >= 24 * time) {
         setAround('ilości')
       }
-      if (iterrations >= 25*time) {
+      if (iterrations >= 25 * time) {
         setThe('klientów!')
       }
-      
-    }, 40*speed);
+
+    }, 40 * speed);
     return () => clearInterval(interval); //Wyczyszczenie interwału przy odmontowywaniu komponentu
   }, []);
 
@@ -155,13 +165,15 @@ export default function Herotext() {
       </p>
       <div className="flex items-center justify-center gap-3 sm:gap-3">
 
-      <Link href='/#about-us' className="cta unselectable ">
-          <div className="text m-2 sm:m-0"  >
-            Poznaj Nas <i className="fa-solid fa-arrow-right-long"></i>
-          </div>
-      </Link>
+        <div onClick={() => (document.querySelector('#about-us').scrollIntoView({
+          behavior: 'smooth'
+        }))} className="cta unselectable ">
+        <div className="text m-2 sm:m-0"  >
+          Poznaj Nas <i className="fa-solid fa-arrow-right-long"></i>
+        </div>
       </div>
-      
     </div>
+      
+    </div >
   )
 }
