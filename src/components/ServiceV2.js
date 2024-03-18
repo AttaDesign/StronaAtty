@@ -28,7 +28,7 @@ function ServiceV2() {
             <motion.div animate={isPhone ? {} : otherPage ? { opacity: 0 } : {}} transition={{ duration: 1 }} className="services-main" >
                 <motion.h1 initial={isPhone ? {} : { opacity: 0 }} animate={isPhone ? {} : View ? { opacity: 1 } : {}} transition={{ duration: 1 }} className="heading" >Projektujemy</motion.h1>
 
-                <div className="uslugi" >
+                <div className="uslugi p-8" >
 
                     <div className="group">
                         <motion.div ref={projects} initial={isPhone ? {} : { opacity: 0, scale: 0 }} animate={isPhone ? {} : View ? { opacity: 1, scale: 1 } : {}} transition={{ duration: 1.5, delay: 0, type: 'spring' }} className="block">
@@ -41,8 +41,8 @@ function ServiceV2() {
                                 <div className="bodytext2">
                                     <p>
                                         Stworzymy stronę zgodną z <br></br>
-                                        profilem twojego klienta  oraz<br></br>
-                                        jasno określoną strategią <br></br>
+                                        profilem twojego klienta  <br></br>oraz
+                                        jasno określoną <br></br>strategią 
                                         sprzedaży.
                                     </p>
                                 </div>
@@ -84,7 +84,7 @@ function ServiceV2() {
                                     SEO oraz Aplikacje
                                 </div>
                                 <div className="bodytext2">
-                                    <p>Naprawiamy strony  oraz<br></br> wykonujemy trudniejsze<br></br> projekty wymagające całego <br></br>zespołu programistów</p>
+                                    <p>Naprawiamy strony  oraz<br></br> wykonujemy trudniejsze<br></br> projekty wymagające<br></br> całego zespołu<br></br>  programistów</p>
                                 </div>
                             </div>
                         </motion.div>
