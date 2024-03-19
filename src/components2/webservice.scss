@@ -1,0 +1,346 @@
+#webservice {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: black;
+    justify-content: center;
+    display: flex;
+    overflow: hidden;
+    overflow-x: hidden;
+
+}
+
+.service_container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    max-width: 1000px;
+    position: relative;
+}
+
+.wwwicon {
+    filter: drop-shadow(1px 1px 10px white);
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+}
+
+.box::after {
+    width: 100%;
+    height: 100%;
+    border-radius: 100%;
+    filter: blur(45px);
+    background-image: radial-gradient(rgb(0, 0, 0), transparent);
+    position: absolute;
+    content: '';
+    z-index: 3;
+}
+
+.box {
+    position: absolute;
+    max-width: 100vw;
+    content: '';
+    z-index: 4;
+    display: flex;
+    margin-top: 9%;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    height: auto;
+
+    .text-box {
+        overflow: hidden;
+
+        .logo22 {
+            margin-left: auto;
+            margin-right: auto;
+            padding-bottom: 20px;
+            margin-top: 75px;
+        }
+
+        z-index: 5;
+        white-space: normal;
+        padding: 30px;
+        word-wrap: break-word;
+        flex-wrap: wrap;
+        /* Pozwala zawartości na zawijanie się wewnątrz .text-box */
+        font-size: 18px;
+        color: #E6E6E6;
+        line-height: 27px;
+        word-spacing: 5px;
+        border-radius: 10px;
+        width: 500px;
+        /* Możesz rozważyć zastosowanie max-width zamiast width, jeśli chcesz, aby .text-box był bardziej elastyczny */
+        height: auto;
+    }
+
+    a {
+        width: 20px;
+    }
+
+    .button {
+        position: relative;
+        margin-top: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        opacity: 0.8;
+        cursor: pointer;
+        transition: all 0.3s ease-in-out;
+        filter: drop-shadow(0px 0px 5px rgb(230, 232, 255));
+
+        &:hover {
+            scale: 105%;
+            opacity: 1;
+        }
+
+        &:active {
+            scale: 85%;
+        }
+    }
+}
+
+#contact_link {
+
+    pointer-events: none;
+}
+
+.webphotos {
+    width: 100vw;
+    height: 700px;
+    margin-top: 300px;
+    background-color: transparent;
+    position: relative;
+
+    .imageholder {
+        cursor: pointer;
+        transition: all 0.4s ease-in;
+
+        &:hover {
+            box-shadow: rgba(0, 140, 255, 0.56) 2px 22px 70px 14px;
+        }
+
+        width: 570px;
+        height: 264px;
+    }
+
+    .site1 {
+        position: absolute;
+        left: 45%;
+        top: -25%;
+    }
+
+    .site2 {
+        position: absolute;
+        left: 45%;
+        top: 145%;
+    }
+
+    .site3 {
+        position: absolute;
+        left: -20%;
+        top: 15%;
+    }
+
+    .site4 {
+        position: absolute;
+        left: 62%;
+        top: 112%;
+    }
+
+    .site5 {
+        position: absolute;
+        left: 110%;
+        top: 35%;
+    }
+
+    .site6 {
+        position: absolute;
+        left: 120%;
+        top: 130%;
+    }
+
+    .site7 {
+        position: absolute;
+        left: 120%;
+        top: -9%;
+    }
+
+    .site8 {
+        position: absolute;
+        left: -15%;
+        top: -40%;
+        z-index: 2;
+    }
+
+    .site9 {
+        position: absolute;
+        left: 10%;
+        top: -30%;
+    }
+
+    .site10 {
+        position: absolute;
+        left: 85%;
+        top: 50%;
+    }
+
+    .site11 {
+        position: absolute;
+        left: -70%;
+        top: 25%;
+    }
+
+    .site12 {
+        position: absolute;
+        left: 54%;
+        top: 15%;
+    }
+
+    .site13 {
+        position: absolute;
+        left: -25%;
+        top: 58%;
+    }
+
+    .site14 {
+        position: absolute;
+        left: 20%;
+        top: -10%;
+    }
+
+    .site15 {
+        position: absolute;
+        left: 3%;
+        top: 105%;
+    }
+}
+
+.cosmicflashes {
+    width: 1px;
+    border-radius: 100%;
+    height: 1px;
+    position: absolute;
+    background-color: rgb(178, 237, 255);
+
+}
+
+@media (max-width: 640px) {
+    .webphotos {
+        width: 100vw;
+        height: 400px;
+        margin-top: 500px;
+        background-color: transparent;
+        position: relative;
+        margin-right: 120px;
+    
+        .imageholder {
+            cursor: pointer;
+            transition: all 0.4s ease-in;
+    
+            &:hover {
+                box-shadow: rgba(0, 140, 255, 0.56) 2px 22px 70px 14px;
+            }
+    
+            width: 570px;
+            height: 264px;
+        }
+    
+        .site1 {
+            position: absolute;
+            left: 45%;
+            bottom: -25%;
+        }
+    
+        .site2 {
+            position: absolute;
+            left: 45%;
+            top: 145%;
+        }
+    
+        .site3 {
+            position: absolute;
+            left: -20%;
+            bottom: 15%;
+        }
+    
+        .site4 {
+            position: absolute;
+            left: 62%;
+            top: 112%;
+        }
+    
+        .site5 {
+            position: absolute;
+            left: 110%;
+            bottom: 35%;
+        }
+    
+        .site6 {
+            position: absolute;
+            left: 120%;
+            top: 130%;
+        }
+    
+        .site7 {
+            position: absolute;
+            left: 120%;
+            bottom: -9%;
+        }
+    
+        .site8 {
+            position: absolute;
+            left: -15%;
+            bottom: -40%;
+            z-index: 2;
+        }
+    
+        .site9 {
+            position: absolute;
+            left: 10%;
+            bottom: -30%;
+        }
+    
+        .site10 {
+            position: absolute;
+            left: 85%;
+            top: 50%;
+        }
+    
+        .site11 {
+            position: absolute;
+            left: -70%;
+            bottom: 25%;
+        }
+    
+        .site12 {
+            position: absolute;
+            left: 54%;
+            bottom: 15%;
+        }
+    
+        .site13 {
+            position: absolute;
+            left: -25%;
+            top: 58%;
+        }
+    
+        .site14 {
+            position: absolute;
+            left: 20%;
+            bottom: -10%;
+        }
+    
+        .site15 {
+            position: absolute;
+            left: 3%;
+            top: 105%;
+        }
+    }
+    
+    
+    .box {
+        .text-box {
+            .logo22 {
+                margin-top: 200px;
+            }
+        }
+}}

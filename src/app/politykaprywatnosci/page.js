@@ -9,11 +9,10 @@ import Navbar from '@/components/navbar';
 export default function PolitykaPrywatnosci() {
     return (
         <>
-            <Navbar></Navbar>
             <div className='wrap'>
                 <AttaIMG></AttaIMG>
                 <div className="backbutton">
-                    <Link href="/" id='#contact_link'  ><Image src='/rightarrow.png' alt="go back to projects" className='button' width={44} height={44} style={{ rotate: '90deg' }} ></Image></Link>
+                    <Link href="/contact" id='#contact_link'  ><Image src='/rightarrow.png' alt="go back to projects" className='button' width={44} height={44} style={{ rotate: '90deg' }} ></Image></Link>
                 </div>
                 <div className='pp'>
                     <br></br><span style={{ fontWeight: '700' }}>Ochrona prywatności Użytkowników odwiedzających Serwis jest dla nas szczególnie istotna i udzielenia Użytkownikom informacji w przedmiocie danych <br></br>osobowych zbieranych przez Serwis, celu ich gromadzenia i wykorzystywania plików cookies – przedstawiamy niniejszą politykę prywatności. </span><br></br>
