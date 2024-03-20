@@ -39,9 +39,9 @@ export default function PolitykaPrywatnosci() {
                     <span style={{ fontWeight: '700' }}>Data collected about users on the website, including personal data, how they are used, and User rights <br></br>
                         When visiting our Website, user data may be shared by him in two ways: passively and actively. <br></br></span>
 
-                    2.1. Passively collected data is information automatically saved by the website: anonymous information about the time of the User's visit, IP address, URL address, browser type (so-called system logs), number of visits, device data, browser language, operating system type.
+                    2.1. Passively collected data is information automatically saved by the website: anonymous information about the time of the User&apos;s visit, IP address, URL address, browser type (so-called system logs), number of visits, device data, browser language, operating system type.
                     <br></br>
-                    Automatically collected data is analyzed for statistical purposes using the standard Google Analytics solution. This tool operates based on so-called cookies files and does not provide data enabling the identification of the User. Google's privacy policy is available at https://www.google.com/intl/pl/policies/privacy/.
+                    Automatically collected data is analyzed for statistical purposes using the standard Google Analytics solution. This tool operates based on so-called cookies files and does not provide data enabling the identification of the User. Google&apos;s privacy policy is available at https://www.google.com/intl/pl/policies/privacy/.
                     <br></br>
                     Data collected in the manner described above are stored only for auxiliary purposes for administering the Website, enabling its efficient functioning, and applying solutions user-friendly. We assure you that this information is not disclosed to anyone other than persons authorized to administer the Website.
                     <br></br>
@@ -55,10 +55,10 @@ export default function PolitykaPrywatnosci() {
                     <br></br>
                     <br></br>
                     Cookies files and their use
-                    When using the Website on the User's end device, cookies files are saved. Our cookies policy is available at: www.attadesign.pl/cookies
+                    When using the Website on the User&apos;s end device, cookies files are saved. Our cookies policy is available at: www.attadesign.pl/cookies
                     <br></br>
                     Security
-                    The User's personal data is stored in a database to which technical and organizational measures have been applied to ensure the protection of processed data in accordance with the requirements specified by the legal provisions on the protection of personal data, in particular in the Regulation of the European Parliament and of the Council (EU) 2016/679 of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (“GDPR”).
+                    The User&apos;s personal data is stored in a database to which technical and organizational measures have been applied to ensure the protection of processed data in accordance with the requirements specified by the legal provisions on the protection of personal data, in particular in the Regulation of the European Parliament and of the Council (EU) 2016/679 of 27 April 2016 on the protection of individuals with regard to the processing of personal data and on the free movement of such data and repealing Directive 95/46/EC (“GDPR”).
                     <br></br>
                     The Website uses technologies and procedures for the protection of personal data ensuring proper privacy protection of Users. Access to the database is only available to persons authorized by the data controller.
 

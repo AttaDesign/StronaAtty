@@ -40,8 +40,8 @@ function ServiceV2() {
                                 </div>
                                 <div className="bodytext2">
                                     <p>
-                                        We'll design a website to <br></br>
-                                        match your client's profile,  <br></br>
+                                        We&apos;ll design a website to <br></br>
+                                        match your client&apos;s profile,  <br></br>
                                         With a clear sales strategy,<br></br>
                                         your success will compile.
                                     </p>
@@ -56,7 +56,7 @@ function ServiceV2() {
                                 </div>
                                 <div className="bodytext2">
                                     <p>
-                                    We'll design an intuitive<br></br>store so customers can easily <br></br>make purchases with <br></br>fluidity.
+                                    We&apos;ll design an intuitive<br></br>store so customers can easily <br></br>make purchases with <br></br>fluidity.
                                     </p>
                                 </div>
                             </div>
