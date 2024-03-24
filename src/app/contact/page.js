@@ -62,7 +62,7 @@ const clienList = {
     },
     1: {
         img: '/site2.png',
-        h2: 'Paweł Orłowski, Notariusz',
+        h2: 'Paweł, Notariusz',
         p: 'Prosta wizytówka dla kancelarii notarialnej w Warszawie. Naszym celem było ukazanie kancelarii w sposób minimalistyczny oraz elegancki'
     }
 }
