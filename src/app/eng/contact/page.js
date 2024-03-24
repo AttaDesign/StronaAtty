@@ -62,7 +62,7 @@ export default function Contact() {
         },
         1: {
             img: '/site2.png',
-            h2: 'Paweł Orłowski, Lawyer',
+            h2: 'Paweł, Lawyer',
             p: 'A simple business card for a notary office in Warsaw. Our goal was to portray the office in a minimalist and elegant manner.'
         }
     }
