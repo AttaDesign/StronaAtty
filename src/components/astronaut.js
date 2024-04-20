@@ -2,7 +2,6 @@
 import Image from 'next/image';
 import { useSpring, motion, motionValue, useInView, useScroll, useMotionValueEvent, delay } from 'framer-motion';
 import { useEffect, useRef, useState } from 'react';
-import { FacebookProvider, CustomChat } from 'react-facebook';
 
 const Astronaut = () => {
     let width = 0;
@@ -87,9 +86,7 @@ const Astronaut = () => {
 
     return (
         <motion.div >
-            <FacebookProvider appId='408039918588610' chatSupport>
-                <CustomChat pageId='228265610366989' minimized='true'></CustomChat>    
-             </FacebookProvider>
+            
             <motion.div className='img_container pointer-events-none' animate={hidden ? { scale: 0 } : SCALAR ? { scale: 0.66 } : { scale: 1 }} transition={{ delay: 0.1, type: 'spring' }} style={ isPhone ? {  height: 'auto', width: 'auto', position: 'fixed', zIndex: 2, bottom: '16%', right: '28%'} : {  height: 'auto', width: 'auto', position: 'fixed', zIndex: 2, bottom: '36%', right: '28%', x: images.asteroid1.x, y: images.asteroid1.y }}>
                 <Image id='meteo1' src='/asteroida_faded.png' width={27} height={27} alt='' loading="eager"></Image>
             </motion.div>
