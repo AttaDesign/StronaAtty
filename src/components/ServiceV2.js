@@ -26,7 +26,6 @@ function ServiceV2() {
     return (
         <div className="mainwrap" id='servicesV2' >
             <motion.div animate={isPhone ? {} : otherPage ? { opacity: 0 } : {}} transition={{ duration: 1 }} className="services-main" >
-                <motion.h1 initial={isPhone ? {} : { opacity: 0 }} animate={isPhone ? {} : View ? { opacity: 1 } : {}} transition={{ duration: 1 }} className="heading" >Projektujemy</motion.h1>
 
                 <div className="uslugi p-8" >
 
@@ -94,13 +93,6 @@ function ServiceV2() {
 
 
                 </div>
-                <Link href='/contact' className='unselectable ' onClick={() => { if (!isPhone) { setOtherPage(true) } }}>
-
-                    {otherPage ? null : <AnimatePresence mode='wait'>
-                        <motion.div exit={isPhone ? {} : { opacity: 0 }} initial={isPhone ? {} : { opacity: 0 }} animate={isPhone ? {} : View ? { opacity: 1 } : {}} transition={{ duration: 1.5, delay: 0.5, type: 'spring' }} className="konsultacja">BEZPŁATNA KONSULTACJA</motion.div>
-                    </AnimatePresence>}
-                </Link>
-
             </motion.div >
         </div >
     )

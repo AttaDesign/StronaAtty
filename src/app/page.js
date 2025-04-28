@@ -8,6 +8,7 @@ import Services from '@/components/Services'
 import ServiceV2 from '@/components/ServiceV2'
 import { AnimatePresence } from 'framer-motion'
 import Footer from '@/components/footer'
+import ContactSection from '@/components/ContactSection'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         <Aboutus></Aboutus>
         <Webservice></Webservice>
         <ServiceV2></ServiceV2>
+        <ContactSection></ContactSection>
         <Footer></Footer>
     </>
   )

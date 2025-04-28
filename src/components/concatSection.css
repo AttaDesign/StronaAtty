@@ -1,0 +1,44 @@
+#Contactus {
+  display: flex;
+  padding: 32px 0px;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  align-self: stretch;
+  border: 1px solid rgba(63, 63, 63, 0.35);
+  background: #FBFCFD;
+}
+#Contactus .wrapper5 {
+  width: 550px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+  background: #000;
+}
+#Contactus .wrapper5 h3 {
+  color: #FBFCFD;
+  text-align: center;
+  font-feature-settings: "calt" off;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 64px;
+  /* 100% */
+  letter-spacing: -0.64px;
+}
+#Contactus .wrapper5 p {
+  color: #FBFCFD;
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  /* 100% */
+  letter-spacing: -0.16px;
+}
+#Contactus .logoatty {
+  width: 44px;
+  height: 44px;
+  aspect-ratio: 1/1;
+}/*# sourceMappingURL=concatSection.css.map */

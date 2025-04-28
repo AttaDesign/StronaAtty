@@ -1,20 +1,21 @@
 .mainwrap {
   padding-top: 100px;
-  min-height: 100vh;
   width: 100vw;
   display: flex;
   justify-content: center;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 
 .services-main {
+  padding-bottom: 64px;
   width: 1440px;
-  height: 1024px;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 .services-main .heading {
-  margin-bottom: 80px;
+  margin-bottom: 48px;
   color: #ffffff;
   text-align: center;
   -webkit-text-stroke-width: 1;

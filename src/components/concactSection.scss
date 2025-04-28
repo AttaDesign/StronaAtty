@@ -1,0 +1,76 @@
+.ct {
+    display: flex;
+    padding: 32px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    align-self: stretch;
+    border: 1px solid rgba(63, 63, 63, 0.35);
+    background: #6666661a;
+    max-width: 540px;
+    border-radius: 5px;
+
+    margin: 32px auto 96px auto;
+
+    .v {
+        width: 550px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 16px;
+
+        .vh3 {
+            color: #FBFCFD;
+            text-align: center;
+            font-feature-settings: 'calt' off;
+            font-size: 3.75rem;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 64px;
+            /* 100% */
+            letter-spacing: -0.64px;
+        }
+
+        .p {
+            span {
+                cursor: pointer;
+                text-decoration: underline;
+                font-weight: 600;
+            }
+
+            color: #FBFCFD;
+            text-align: center;
+            font-size: 16px;
+            font-style: normal;
+            line-height: 21px;
+            /* 100% */
+            letter-spacing: -0.16px;
+        }
+    }
+
+    .logoatty {
+        width: 44px;
+        height: 44px;
+        aspect-ratio: 1/1;
+
+    }
+}
+
+@media (max-width: 1025px) {
+    .ct {
+
+        margin: 164px 16px 0px 16px;
+        z-index: 1000;
+        backdrop-filter: blur(8px);
+    }
+
+    .ct .v {
+        p {
+            text-wrap: wrap;
+            max-width: 330px;
+        }
+        .vh3 {
+            font-size: 2.25rem !important;
+        }
+    }
+}

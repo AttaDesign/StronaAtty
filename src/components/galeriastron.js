@@ -53,11 +53,11 @@ export default function Galeriastron() {
     let img_scalar = 2.3
     let galeria = [
         { img: 'site1', zposition: -40, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site2', zposition: -23, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' },
-        { img: 'site3', zposition: -44, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site4', zposition: -42, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }, { img: 'site5', zposition: -44, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '0deg' },
-        { img: 'site6', zposition: -33, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site7', zposition: -45, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }, { img: 'site8', zposition: -33, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '0deg' },
-        { img: 'site9', zposition: -30, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site10', zposition: -59, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' },
-        { img: 'site11', zposition: -55, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site12', zposition: -50, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' },
-        { img: 'site13', zposition: -39, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site15', zposition: -31, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }]
+        { img: 'site3', zposition: -44, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'SDK Partner', zposition: -42, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }, { img: 'nexumairways', zposition: -44, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '0deg' },
+        { img: 'brandtube', zposition: -33, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'spacer3d', zposition: -45, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }, { img: 'stumilowylas', zposition: -33, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '0deg' },
+        { img: 'tymek Drużbicki', zposition: -30, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'site10', zposition: -59, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' },
+        { img: 'moderncvscreen', zposition: -55, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'kancelarianotarialna', zposition: -50, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' },
+        { img: 'cashradar', zposition: -39, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '30deg' }, { img: 'Zembrzuskisite', zposition: -31, width: 190 * img_scalar, height: 88 * img_scalar, rotation: '-30deg' }]
 
     function LoadGallery(galeria) {
         let _galery = []
@@ -85,7 +85,7 @@ export default function Galeriastron() {
                         <motion.div className='cosmicflashes' key={index + 300} animate={isInView ? { z: [element.zposition / 3, 6], opacity: [1, 1, 1, 1], rotateX: '11deg' } : {}} transition={{ duration: speed / 2 / 1.3, repeat: Infinity }} style={{ left: `${randprocent + index / 20}%`, top: `${randprocent2 + index / 2}%` }}> </motion.div>
                         <motion.div className='cosmicflashes' key={index + 200} animate={isInView ? { z: [element.zposition / 3, 6], opacity: [1, 1, 1, 1], rotateX: '11deg' } : {}} transition={{ duration: speed / 2, repeat: Infinity }} style={{ right: `${randprocent + index * 3}%`, bottom: `${randprocent2 + index * 2}%` }}> </motion.div>
                         <motion.div className='cosmicflashes' key={index + 100} animate={isInView ? { z: [element.zposition / 3, 6], opacity: [0, 1, 1, 1], rotateX: '11deg' } : {}} transition={{ duration: speed / 2, repeat: Infinity }} style={{ right: `${randprocent + index * 20}%`, bottom: `${randprocent2 + index / 2}%` }}> </motion.div>
-                        <motion.div onClick={handlePerspectiveChange} animate={{ z: [element.zposition, 1], opacity: [0, 0, 0, 1, 1, 1, 0] }} transition={{ duration: speed, repeat: Infinity }} className={`imageholder ${element.img}`}><Image src={`/${element.img}.png`} alt={element.img} key={index + 50} width={element.width} height={element.height} style={{ transform: `translateX(${element.rotation})` }}></Image></motion.div>
+                        <motion.div onClick={handlePerspectiveChange} animate={{ z: [element.zposition, 1], opacity: [0, 0, 0, 1, 1, 1, 0] }} transition={{ duration: speed, repeat: Infinity }} className={`imageholder ${element.img} site${index}`}><Image src={`/${element.img}.png`} alt={element.img} key={index + 50} width={element.width} height={element.height} style={{ transform: `translateX(${element.rotation})` }}></Image></motion.div>
                     </>
                 )
             }
