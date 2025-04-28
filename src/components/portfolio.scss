@@ -125,6 +125,7 @@
 
     .show {
         max-height: 6000px !important;
+        padding-bottom: 64px;
     }
 
     .wrappingbutton {
@@ -203,6 +204,10 @@
             align-items: start;
         }
     }
+    .portfolio .show {
+        max-height: 6500px !important;
+        padding-bottom: 48px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -211,6 +216,7 @@
     }
     .portfolio .show {
         max-height: 6500px !important;
+        padding-bottom: 52px;
     }
     .case-studie {
         flex-direction: column;
@@ -276,7 +282,7 @@
     }
 
     .portfolio .listing {
-        max-height: 978px;
+        max-height: 1008px;
         gap: 64px;
         .case-studie .boxi {
             display: flex;
