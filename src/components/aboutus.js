@@ -50,7 +50,7 @@ export default function Aboutus() {
           </motion.div>
           <div style={{ display: 'flex', alignItems: 'center', position: 'relative', flexDirection: 'column', gap: '15px', width: '50%' }} >
             
-           <AnimatedText text="Jesteśmy kreatywnym zespołem skupionym na produkcji wyjątkowych stron internetowych. Nasze projekty nie tylko odzwierciedlają precyzję, ale także zdobią wizerunek Twojej firmy elegancją i oryginalnością. Nasza agencja webowa jest miejscem, gdzie innowacje spotykają się z profesjonalizmem, a pomysły zamieniają się w funkcjonalne rozwiązania online"></AnimatedText>
+           <AnimatedText text="Jesteśmy agencją kreatywną, którą napędza pasja do tworzenia wyjątkowych wizerunków marek. Nasz zespół, we współpracy ze specjalistami od marketingu i fotografem, projektuje nowoczesne strony oraz dedykowane aplikacje internetowe, które przyciągają uwagę i budują silną obecność online. Działamy z zaangażowaniem, dbając o każdy detal, by Twoje pomysły stały się rzeczywistością."></AnimatedText>
           
             
             {/* <Image src="/StockSnap_CO08LAFBTH.png" width={300} height={190} style={{position:'absolute', right: '-50%', bottom: '-50%'}}></Image>*/}

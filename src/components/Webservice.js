@@ -34,7 +34,7 @@ export default function Webservice() {
         <div className="box">
           <div className="text-box">
             <AttaIMG></AttaIMG>
-            <AnimatedText text="Co robimy? Projektujemy strony, aplikacje i sklepy internetowe, które nie tylko wyglądają świetnie na każdym urządzeniu, ale także pomagą Wam osiągnąć realne cele biznesowe. Od SEO, przez bezpieczeństwo, aż po wsparcie - oferujemy kompleksową obsługę, która pokryje wszystkie Wasze potrzeby."></AnimatedText>
+            <AnimatedText text="Co robimy? Projektujemy strony, aplikacje i sklepy internetowe, które nie tylko wyglądają świetnie na każdym urządzeniu, ale także pomogą Wam osiągnąć realne cele biznesowe. Od SEO, przez bezpieczeństwo, aż po wsparcie - oferujemy kompleksową obsługę, która pokryje wszystkie Wasze potrzeby."></AnimatedText>
             <br></br>
             <Link href='/contact' id='#contact_link' className='unselectable' ><Image src='/rightarrow.png' alt="button" onClick={handleClick} className='button unselectable' width={44} height={44} style={{rotate: '90deg'}} ></Image></Link>
           </div>
