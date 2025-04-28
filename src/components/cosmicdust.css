@@ -1,0 +1,48 @@
+.custom-container {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 10rem; /* -top-40 */
+  z-index: 5; /* z-5 */
+  transform: translateZ(0); /* transform-gpu */
+  overflow: hidden;
+  filter: blur(64px); /* blur-3xl */
+}
+
+.custom-inner {
+  position: relative;
+  background-size: 200% 200%;
+  left: calc(50% - 11rem);
+  width: 36.125rem;
+  transform: translateX(-50%) rotate(30deg);
+  background-image: linear-gradient(to top right, red, blue);
+  opacity: 0.3;
+  aspect-ratio: 1155/678;
+  -webkit-clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
+          clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%);
+  animation: slideGradient 7s infinite linear;
+}
+
+@media (min-width: 640px) {
+  .custom-container {
+    top: -80px; /* sm:-top-80 */
+  }
+  .custom-inner {
+    left: calc(50% - 30rem);
+    width: 72.1875rem;
+  }
+}
+@keyframes slideGradient {
+  0% {
+    opacity: 0.3;
+    background-position: 0% 50%;
+  }
+  50% {
+    opacity: 0.2;
+    background-position: 100% 50%;
+  }
+  100% {
+    opacity: 0.3;
+    background-position: 0% 50%;
+  }
+}/*# sourceMappingURL=cosmicdust.css.map */

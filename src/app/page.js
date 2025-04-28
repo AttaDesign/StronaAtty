@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import Herosection from '@/components/herosection'
+import Portfolio from '@/components/portfolio'
 import DynamicNavbar from '@/components/navbar'
 import Aboutus from '@/components/aboutus'
 import Webservice from '@/components/Webservice'
@@ -13,6 +14,7 @@ export default function Home() {
     <>
         <DynamicNavbar></DynamicNavbar>
         <Herosection></Herosection>
+        <Portfolio></Portfolio>
         <Aboutus></Aboutus>
         <Webservice></Webservice>
         <ServiceV2></ServiceV2>

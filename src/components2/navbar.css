@@ -1,0 +1,210 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+* {
+  text-wrap: nowrap;
+}
+
+.menu {
+  -webkit-backdrop-filter: blur(9px);
+          backdrop-filter: blur(9px);
+  overflow: hidden;
+  flex-direction: column;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  z-index: 100;
+}
+.menu .menu_box {
+  width: 50%;
+  height: auto;
+  font-size: 16px;
+  background-color: rgba(0, 0, 0, 0.664);
+  padding: 45px 60px 45px 60px;
+  z-index: 102;
+  border-radius: 0px 0px 5px 5px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.096);
+  border-left: 1px solid rgba(255, 255, 255, 0.096);
+  border-right: 1px solid rgba(255, 255, 255, 0.096);
+}
+.menu .menu_box .numb {
+  transform: translateX(-10px);
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 300;
+  color: rgb(0, 255, 60);
+}
+.menu .menu_box p {
+  transition: 0.3s all ease-in-out;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 300;
+}
+.menu .menu_box .animation_1 {
+  overflow: hidden;
+  width: 0%;
+  animation: code 1.5s forwards;
+}
+.menu .menu_box .animation_2 {
+  overflow: hidden;
+  width: 0%;
+  animation: code 1.5s forwards 1.38s;
+}
+.menu .menu_box .start .animation_1_1 {
+  overflow: hidden;
+  width: 0%;
+}
+.menu .menu_box .start .animation_1_1:first-child {
+  animation: code 1.5s forwards 0.23s;
+}
+.menu .menu_box .start .animation_1_1:nth-child(2) {
+  animation: code 1.5s forwards 0.46s;
+}
+.menu .menu_box .start .animation_1_1:nth-child(3) {
+  animation: code 1.5s forwards 0.69s;
+}
+.menu .menu_box .start .animation_1_1:nth-child(4) {
+  animation: code 1.5s forwards 0.92s;
+}
+.menu .menu_box .start .animation_1_1:nth-child(5) {
+  animation: code 1.5s forwards 1.15s;
+}
+.menu .menu_box .start .animation_1_2 {
+  overflow: hidden;
+  width: 0%;
+}
+.menu .menu_box .start .animation_1_2:first-child {
+  animation: code 1.5s forwards 1.61s;
+}
+.menu .menu_box .start .animation_1_2:nth-child(2) {
+  animation: code 1.5s forwards 1.84s;
+}
+.menu .menu_box .start .animation_1_2:nth-child(3) {
+  animation: code 1.5s forwards 2.07s;
+}
+.menu .menu_box .start .animation_1_2:nth-child(4) {
+  animation: code 1.5s forwards 2.3s;
+}
+.menu .menu_box .start .animation_1_2:nth-child(5) {
+  animation: code 1.5s forwards 2.53s;
+}
+.menu .menu_box .start .animation_1_2 {
+  overflow: hidden;
+  width: 0%;
+  animation: code 3s forwards;
+}
+.menu .topbar {
+  border-left: 1px solid rgba(255, 255, 255, 0.096);
+  border-top: 1px solid rgba(255, 255, 255, 0.096);
+  border-right: 1px solid rgba(255, 255, 255, 0.096);
+  transform: translateY(3px);
+  z-index: 101;
+  background-color: rgba(255, 255, 255, 0.096);
+  width: 50%;
+  height: 20px;
+  border-radius: 5px;
+  position: relative;
+}
+.menu .topbar .circle {
+  width: 9px;
+  height: 9px;
+  border-radius: 4.5px;
+  position: absolute;
+  top: 3.5px;
+  right: 4px;
+  background-color: red;
+  transition: box-shadow 0.3s ease-out;
+}
+.menu .topbar .circle:hover {
+  box-shadow: 0px 0px 10px 0px red;
+}
+.menu .topbar .circle:nth-child(2) {
+  right: 18px;
+  background-color: orange;
+}
+.menu .topbar .circle:nth-child(2):hover {
+  box-shadow: 0px 0px 10px 0px orange;
+}
+.menu .topbar .circle:nth-child(3) {
+  right: 34px;
+  background-color: yellowgreen;
+}
+.menu .topbar .circle:nth-child(3):hover {
+  box-shadow: 0px 0px 10px 0px yellowgreen;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+.menu_link:hover {
+  transform: translateX(20px);
+  text-shadow: 0px 0px 4px rgb(255, 255, 255);
+  background-color: rgba(26, 25, 25, 0.274);
+}
+.menu_link:hover .numb {
+  text-shadow: 1px 1px 12px yellowgreen, 1px 0px 1px rgb(0, 255, 0);
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+  transition: 0.3s all ease-in-out;
+  line-height: 28px;
+  font-size: 16px;
+  font-weight: 300;
+}
+
+.burger {
+  z-index: 101;
+  top: 8px;
+  right: 8px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: auto;
+  padding: 0;
+  margin: 3px;
+  align-items: center;
+  transition: scale 0.3s ease-out;
+}
+.burger:hover {
+  scale: 110%;
+}
+.burger span {
+  padding: 0;
+  margin: 4px;
+  width: 100%;
+  border-top: 2px solid white;
+}
+
+@keyframes code {
+  0% {
+    width: 0%;
+  }
+  100% {
+    width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  .menu .menu_box {
+    width: 80vw;
+  }
+}
+@media (max-width: 414px) {
+  .row {
+    display: flex;
+    flex-direction: row;
+    transition: 0.3s all ease-in-out;
+    line-height: 28px;
+    font-size: 12px;
+    font-weight: 300;
+  }
+  .menu .menu_box {
+    font-size: 12px;
+    width: 90vw;
+    padding: 30px 20px 45px 20px;
+  }
+}/*# sourceMappingURL=navbar.css.map */

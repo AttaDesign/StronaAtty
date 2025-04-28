@@ -158,7 +158,7 @@ export default function Herotext() {
   return (
     <div className="load z-20 relative grid h-2/3 place-content-center space-y-3 sm:space-y-6 bg-transparent p-8 mb-8 sm: m-0 sm:p-0">
       <h1 className="text-center sm:text-6xl text-4xl font-black text-neutral-50">
-        ATTA Web Agency
+        ATTA Web Design
       </h1>
       <p className="text-center text-neutral-400  text-wrap sm:text-unwrap ">
         {we} {design} {develop} {and} {deploy} {solutions} {for2} {clients} {around} {the} {world}🌎
@@ -168,12 +168,12 @@ export default function Herotext() {
         <div onClick={() => (document.querySelector('#about-us').scrollIntoView({
           behavior: 'smooth'
         }))} className="cta unselectable ">
-        <div className="text m-2 sm:m-0"  >
-          Poznaj Nas <i className="fa-solid fa-arrow-right-long"></i>
+          <div className="text m-2 sm:m-0"  >
+            Poznaj Nas <i className="fa-solid fa-arrow-right-long"></i>
+          </div>
         </div>
       </div>
-    </div>
-      
+
     </div >
   )
 }
