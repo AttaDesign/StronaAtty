@@ -27,7 +27,10 @@ const Portfolio = () => {
                 <Case alt="brandtube strona agencji marketingowej" h3="Agencja Brandtube (w budowie)" p="Ten sam klient, który zamówił u nas lejek sprzedażowy, postanowił założyć nową firmę i zlecić nam stworzenie jej strony internetowej. Brandtube nawiązało współpracę partnerską z ATTA Design - wspólnie pomagamy naszym klientom w tworzeniu treści na media społecznościowe oraz budowaniu stron internetowych" img="/brandtube.png"></Case>
 
             </div>
-            <div className="wrappingbutton">
+            <div
+                className="wrappingbutton"
+                style={{ opacity: hidden ? '1' : '0' }}
+            >
                 <div className="cta unselectable" onClick={() => setHidden(!hidden)}>
                     <div className="text m-2 sm:m-0 font-normal flex items-center">
                         {hidden ? 'Wyświetl wszystkie realizacje' : 'Schowaj realizacje'}
