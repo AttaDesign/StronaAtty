@@ -9,7 +9,7 @@ const Portfolio = () => {
     let [hidden, setHidden] = useState(true)
 
     return (
-        <div className='portfolio'>
+        <div className='portfolio' id="portfolio">
             <div className='box2'>
                 <h2 className='text-neutral-50 sm:text-6xl text-4xl sourceFont font-semibold'>Portfolio</h2>
                 <p className='sub'>
