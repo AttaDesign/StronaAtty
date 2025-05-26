@@ -16,7 +16,6 @@ function ContactSection() {
             </div>
         </>
     );
-
 }
 
 export default ContactSection;

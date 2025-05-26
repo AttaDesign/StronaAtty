@@ -298,7 +298,9 @@ header::before {
     backface-visibility: hidden;
     white-space: nowrap;
 }
-
+.fw-400 {
+    font-weight: 400 !important;
+}
 .text:after,
 .text:before {
     position: absolute;

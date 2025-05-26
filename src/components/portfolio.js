@@ -31,7 +31,7 @@ const Portfolio = () => {
                 style={{ display: hidden ? 'block' : 'none' }}
             >
                 <div className="cta unselectable" onClick={() => setHidden(!hidden)}>
-                    <div className="text m-2 sm:m-0 font-normal flex items-center" style={{fontWeight: '400 !important'}}>
+                    <div className="text fw-400 m-2 sm:m-0 font-normal flex items-center" style={{fontWeight: '400 !important'}}>
                         {hidden ? 'Wyświetl wszystkie realizacje' : 'Schowaj realizacje'}
                         <Image
                             width={20}
