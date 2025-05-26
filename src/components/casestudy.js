@@ -18,7 +18,7 @@ function Case({ link, title, h3, p, img, alt }) {
                 </div>
                 <Link href={link} title={title}  target='blank'>
                     <div className="cta unselectable ">
-                        <div className="text m-2 sm:m-0 font-normal"  >
+                        <div className="text m-2 sm:m-0 font-normal" style={{fontWeight: '400 !important' }} >
                             Zobacz Projekt <i className="fa-solid fa-arrow-right-long "></i>
                         </div>
                     </div>
