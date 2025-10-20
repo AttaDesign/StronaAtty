@@ -9,7 +9,7 @@ import ServiceV2 from '@/components/ServiceV2'
 import { AnimatePresence } from 'framer-motion'
 import Footer from '@/components/footer'
 import ContactSection from '@/components/ContactSection'
-
+import { Analytics } from "@vercel/analytics/next"
 export default function Home() {
   return (
     <>
@@ -21,6 +21,8 @@ export default function Home() {
         <ServiceV2></ServiceV2>
         <ContactSection></ContactSection>
         <Footer></Footer>
+        <Analytics></Analytics>
+        
     </>
   )
 }
