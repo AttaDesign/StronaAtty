@@ -6,7 +6,7 @@ import './concactSection.scss';
 function ContactSection() {
     return (
         <>
-            <div id='Contactus' className='ct sourceFont'>
+            <div id='Contactus' className='ct sourceFont wwwww'>
                 <div className='v'>
                     <h3 className='vh3'>Zdecydowany?</h3>
                     <p className='p font-normal'>Skontaktuj się z nami, a spersonalizujemy dla Ciebie ofertę!</p>
