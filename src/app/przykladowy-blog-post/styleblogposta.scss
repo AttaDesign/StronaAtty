@@ -21,8 +21,9 @@ body {
 
 .burger {
     top: 78px !important;
-    right: 328px !important;
+    right: 428px !important;
 }
+
 /* Container główny */
 .main-container {
     position: relative;
@@ -226,25 +227,9 @@ body {
     height: 40px;
     background: linear-gradient(to bottom, rgba(173, 70, 255, 0.5), rgba(0, 0, 0, 0));
 }
-@media (max-width: 1200px ) {
-    .sidebar {
-        display: none !important;
-    }
-    .article-section{
-        padding: 20px 32px !important;
-    }
-    .logo-atta {
-        display: none !important;
 
-    }
-    .content-wrapper {
-        top: 0px;
-    }
-    .burger {
-    top: 8px !important;
-    right: 8px !important;
-}
-}
+
+
 .timeline-icon-bg {
     position: absolute;
     left: 0;
@@ -358,10 +343,11 @@ body {
     display: flex;
     position: fixed;
     top: 200px;
-    right: 130px;
+    right: 230px;
     flex-direction: column;
     gap: 8px;
     z-index: 9999;
+    transition: 1s all ease-in-out;
 }
 
 
@@ -483,3 +469,54 @@ svg {
     width: 100%;
     max-width: 900px;
 }
+
+@media (max-width: 1200px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .article-section {
+        padding: 20px 32px !important;
+    }
+
+    .logo-atta {
+        display: none !important;
+
+    }
+
+    .content-wrapper {
+        top: 0px;
+    }
+
+    .burger {
+        top: 8px !important;
+        right: 8px !important;
+    }
+}
+@media (max-width: 3890px) {
+    .sidebar {
+        right: 1200px ;
+    }
+
+    .burger {
+        right: 1400px !important;
+    }
+}
+@media (max-width: 1923px) {
+    .sidebar {
+        right: 300px ;
+    }
+
+    .burger {
+        right: 500px !important;
+    }
+}
+@media (max-width: 1683px) {
+    .sidebar {
+        right: 230px;
+    }
+    .burger {
+        right: 430px !important;
+    }
+}
+
