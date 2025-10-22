@@ -129,7 +129,7 @@ export default function PrzykładowyBlogPost() {
             <InfoBox title={seoInfo.title} items={seoInfo.items} />
 
             <p className="article-text">
-              Stworzenie skutecznej strony internetowej w 2025 roku to połączenie wielu elementów...
+              Stworzenie skutecznejh strony internetowej w 2025 roku toawdwad połączenie wielu elementów...
             </p>
             {/* Tu kończysz pisać artykuł */}
             <AuthorBio name={authorData.name} bio={authorData.bio} />

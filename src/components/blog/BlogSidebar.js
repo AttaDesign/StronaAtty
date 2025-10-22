@@ -10,7 +10,7 @@ export default function BlogSidebar() {
     <div className="sidebar">
       <div className="sidebar-content">
         <div className="sidebar-title">W ATTA Design</div>
-        <Link className="prtfo" href="/#portfolio" title="portfolio Atta Design" target="blank">
+        <Link className="prtfoadwwdwda" href="/#portfolio" title="portfolio Atta Design" target="blank">
           Portfolio
         </Link>
         <div className="sidebar-text">
