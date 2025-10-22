@@ -234,7 +234,9 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    width: 48px;
+    width: 48px;border-radius: 33554400px;
+border: 2px solid #190023;
+background: linear-gradient(135deg, #200015 0%, #160022 100%);
     height: 48px;
     border-radius: 9999px;
     filter: blur(1px);
@@ -427,6 +429,8 @@ body {
     height: 89px;
     border-radius: 9999px;
     flex-shrink: 0;
+    border-radius: 33554400px;
+background: linear-gradient(135deg, #200015 0%, #160022 100%);
     display: flex;
     align-items: center;
     justify-content: center;
