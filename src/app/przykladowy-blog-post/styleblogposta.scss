@@ -470,29 +470,6 @@ svg {
     max-width: 900px;
 }
 
-@media (max-width: 1200px) {
-    .sidebar {
-        display: none !important;
-    }
-
-    .article-section {
-        padding: 20px 32px !important;
-    }
-
-    .logo-atta {
-        display: none !important;
-
-    }
-
-    .content-wrapper {
-        top: 0px;
-    }
-
-    .burger {
-        top: 8px !important;
-        right: 8px !important;
-    }
-}
 @media (max-width: 3890px) {
     .sidebar {
         right: 1200px ;
@@ -520,3 +497,27 @@ svg {
     }
 }
 
+
+@media (max-width: 1200px) {
+    .sidebar {
+        display: none !important;
+    }
+
+    .article-section {
+        padding: 20px 32px !important;
+    }
+
+    .logo-atta {
+        display: none !important;
+
+    }
+
+    .content-wrapper {
+        top: 0px;
+    }
+
+    .burger {
+        top: 8px !important;
+        right: 8px !important;
+    }
+}
