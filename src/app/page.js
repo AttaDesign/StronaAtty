@@ -22,7 +22,6 @@ export default function Home() {
         <ContactSection></ContactSection>
         <Footer></Footer>
         <Analytics></Analytics>
-        
     </>
   )
 }

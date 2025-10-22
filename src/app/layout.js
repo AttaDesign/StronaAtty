@@ -19,21 +19,29 @@ const orbi = Orbitron({
 })
 
 export const metadata = {
+  // Odpowiednik: <title>{metadata.title}</title>
   title: 'ATTA Web Agency - strony na zamówienie',
+  
+  // Odpowiednik: <meta name="description" content={metadata.description} />
   description: 'Tworzymy z precyzją eleganckie strony internetowe, które opowiedzą hisotrię twojej frimy.',
+  
   metadataBase: new URL("https://attadesign.pl/"),
 
+  // Odpowiednik: <link rel="canonical" href={metadata.metadataBase.href} />
+  alternates: {
+    canonical: '/en', // "/" łączy się z metadataBase, dając "https://attadesign.pl/"
+  },
+  
+  // Odpowiednik: <meta name="robots" content="all" />
+  robots: {
+    index: true,
+    follow: true,
+  },
 }
 
 export default function RootLayout({ children }) {
   return (
     <>
-     <Head>
-        <title>{metadata.title}</title>
-        <meta name="description" content={metadata.description} />
-        <link rel="canonical" href={metadata.metadataBase.href} />
-        <meta name="robots" content="all" />
-      </Head>
     <html lang="pl">
       <GoogleAnalytics GA_MEASUREMENT_ID='G-QZB3N6PC6X' />
       <body className={`${source.variable} ${orbi.variable}`}>{children}
