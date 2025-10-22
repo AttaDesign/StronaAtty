@@ -19,10 +19,10 @@ body {
     left: 2px;
 }
 
-a {
-    text-decoration: underline !important;
+.burger {
+    top: 78px !important;
+    right: 328px !important;
 }
-
 /* Container główny */
 .main-container {
     position: relative;
@@ -240,6 +240,10 @@ a {
     .content-wrapper {
         top: 0px;
     }
+    .burger {
+    top: 8px !important;
+    right: 8px !important;
+}
 }
 .timeline-icon-bg {
     position: absolute;
