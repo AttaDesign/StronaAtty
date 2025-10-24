@@ -13,11 +13,6 @@ body {
     position: relative;
 }
 
-.logo-atta {
-    position: absolute;
-    top: -76px;
-    left: 2px;
-}
 
 .burger {
     top: 78px !important;
@@ -84,14 +79,20 @@ body {
     display: flex;
     pointer-events: none;
     justify-content: center;
-    margin-top: 86px;
+    margin-top: 150px;
     align-items: flex-start;
 }
 
+.logo-atta {
+    position: absolute;
+    top: -86px;
+    left: 0px;
+}
 /* Article section */
 .article-section {
     pointer-events: all;
     display: flex;
+    position: relative;
     flex-direction: column;
     gap: 32px;
     width: 100%;
@@ -519,7 +520,6 @@ svg {
 
     .logo-atta {
         display: none !important;
-
     }
 
     .content-wrapper {

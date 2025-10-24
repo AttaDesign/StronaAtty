@@ -65,10 +65,10 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
       <BlogSidebar telefon={"+48 572 057 499"} opis={"Nie tworzymy stron z szablonów, tworzymy indywidualne szablony dla każdego klienta. Nasz proces opiera się na 3 krokach: Analiza i makieta → Projektowanie designu→ Zaimplementowanie panelu administracyjnego"} />
       <DynamicNavbar />
       <div className="main-container">
-        <div className="content-wrapper"><Link className='logo-atta' href={'/'} target='_blank'>
-          <Image src='/logo.png' alt='logo' width={39} height={63}></Image></Link>
+        <div className="content-wrapper">
           <div className="article-section">
-
+<Link className='logo-atta' href={'/'} target='_blank'>
+          <Image src='/logo.png' alt='logo' width={39} height={63}></Image></Link>
             <ArticleHeader
               title={articleData.title}
               tags={articleData.tags}
