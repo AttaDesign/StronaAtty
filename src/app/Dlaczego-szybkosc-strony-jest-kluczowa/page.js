@@ -91,7 +91,7 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
 
               0.1 sekundy: Taki czas reakcji jest odbierany jako natychmiastowy. Użytkownik ma poczucie bezpośredniej kontroli.<br></br><br></br>
               1.0 sekunda: To granica płynności. Użytkownik zauważa minimalne opóźnienie, ale jego tok myślenia nie zostaje przerwany.<br></br><br></br>
-              Powyżej 2-5 sekund: To KATASTROFA! Użytkownik zaczyna się irytować, a jego uwaga ucieka. Szansa, że opuści stronę (tzw. "bounce rate") wzrasta.<br></br><br></br>
+              Powyżej 2-5 sekund: To KATASTROFA! Użytkownik zaczyna się irytować, a jego uwaga ucieka. Szansa, że opuści stronę (tzw. &ldquo;bounce rate&rdquo;) wzrasta.<br></br><br></br>
 
 
               Wolna strona frustruje odwiedzającego! Buduje negatywne pierwsze wrażenie o firmie, jeszcze zanim użytkownik zdąży zapoznać się z treścią czy ofertą.
@@ -120,13 +120,13 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
 
             <p className="article-text">
               Zanim zaczniemy optymalizację, musimy mieć twarde dane. W ATTA Design używamy profesjonalnych narzędzi, ale Ty sam możesz zrobić pierwszy krok diagnostyczny.
-              Naszym podstawowym i rekomendowanym narzędziem jest Google PageSpeed Insights: https://pagespeed.web.dev/<br></br><br></br>
+              Naszym podstawowym i rekomendowanym narzędziem jest Google PageSpeed Insights: <Link href={"https://pagespeed.web.dev/"} target='_blank'>https://pagespeed.web.dev/</Link><br></br><br></br>
 
 
               Dlaczego to narzędzie? Ponieważ pokazuje Ci dokładnie to, co widzi Google. Nie tylko daje wynik w skali 0-100, ale przede wszystkim analizuje stronę pod kątem SEO.<br></br><br></br>
 
 
-              <b>Wklej adres swojej strony i zobacz wyniki, szczególnie dla urządzeń mobilnych (bo to one są dziś priorytetem). Narzędzie da Ci też listę konkretnych rekomendacji, co "boli" Twoją witrynę i co należy poprawić.
+              <b>Wklej adres swojej strony i zobacz wyniki, szczególnie dla urządzeń mobilnych (bo to one są dziś priorytetem). Narzędzie da Ci też listę konkretnych rekomendacji, co &ldquo;boli&rdquo; Twoją witrynę i co należy poprawić.
                 Nie jesteś pewien, czy Twoja strona działa wystarczająco szybko? Skontaktuj się z nami w ATTA Design. Zrobimy profesjonalny audyt i zaproponujemy konkretne rozwiązania!</b>
 
             </p>
