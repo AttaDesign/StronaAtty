@@ -94,7 +94,7 @@ function ServiceV2() {
 
 
                 </div>
-                <Link href='/eng/contact' className='unselectable ' onClick={() => { if (!isPhone) { setOtherPage(true) } }}>
+                <Link href='https://attadesign.pl/#ContactUs' className='unselectable ' onClick={() => { if (!isPhone) { setOtherPage(true) } }}>
 
                     {otherPage ? null : <AnimatePresence mode='wait'>
                         <motion.div exit={isPhone ? {} : { opacity: 0 }} initial={isPhone ? {} : { opacity: 0 }} animate={isPhone ? {} : View ? { opacity: 1 } : {}} transition={{ duration: 1.5, delay: 0.5, type: 'spring' }} className="konsultacja">Book a FREE Call</motion.div>

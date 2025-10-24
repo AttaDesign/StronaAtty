@@ -80,24 +80,24 @@ body {
 
 /* Main content area */
 .content-wrapper {
-    position: absolute;
-    left: 50%;
-    top: 138px;
-    transform: translateX(-50%);
-    max-width: 1208px;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    pointer-events: none;
+    justify-content: center;
+    margin-top: 86px;
     align-items: flex-start;
 }
 
 /* Article section */
 .article-section {
+    pointer-events: all;
     display: flex;
     flex-direction: column;
     gap: 32px;
     width: 100%;
+    margin-right: 300px;
     max-width: 883px;
+    margin-bottom: 120px;
 }
 
 /* Article header */
@@ -348,7 +348,8 @@ background: linear-gradient(135deg, #200015 0%, #160022 100%);
     right: 230px;
     flex-direction: column;
     gap: 8px;
-    z-index: 9999;
+    pointer-events: all;
+    z-index: 119;
     transition: 1s all ease-in-out;
 }
 
@@ -506,9 +507,14 @@ svg {
     .sidebar {
         display: none !important;
     }
-
+.footer-section {
+    padding-top: 48px;
+}
     .article-section {
         padding: 20px 32px !important;
+    margin-right: 0px;
+    margin-bottom: 32px;
+
     }
 
     .logo-atta {
@@ -517,7 +523,7 @@ svg {
     }
 
     .content-wrapper {
-        top: 0px;
+        margin-top: 32px;
     }
 
     .burger {

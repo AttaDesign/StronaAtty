@@ -71,7 +71,7 @@ const Navbar = () => {
                         </li>
                         
                         <li className="animation_1_1">
-                            <Link  onClick={()=>setShowMenu(false)} href="/eng/contact" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;4&#62;</span>Contact</Link>
+                            <Link  onClick={()=>setShowMenu(false)} href="https://www.attadesign.pl/#ContactUs" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;4&#62;</span>Contact</Link>
                         </li>
                         <li>
                         </li>

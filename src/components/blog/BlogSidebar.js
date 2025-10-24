@@ -5,7 +5,7 @@ import FacebookIcon from '@/components/icons/FacebookIcon';
 import InstagramIcon from '@/components/icons/InstagramIcon';
 import LinkedInIcon from '@/components/icons/LinkedInIcon';
 
-export default function BlogSidebar() {
+export default function BlogSidebar({opis, telefon}) {
   return (
     <div className="sidebar">
       <div className="sidebar-content">
@@ -14,12 +14,12 @@ export default function BlogSidebar() {
           Portfolio
         </Link>
         <div className="sidebar-text">
-          Nie tworzymy stron z szablonów, tworzymy indywidualne szablony dla każdego klienta. Nasz proces opiera się na 3 krokach: Analiza i makieta → Projektowanie designu→ Zaimplementowanie panelu administracyjnego
+          {opis}
         </div>
       </div>
       <div className="sidebar-contact">
         <div>home@attadesign.pl</div>
-        <div>+48 572 057 499</div>
+        <div>{telefon}</div>
         <div className="social-icons">
           {/* Przekazujemy className do komponentów ikon */}
           <FacebookIcon className="social-icon2" />

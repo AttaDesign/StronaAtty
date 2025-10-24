@@ -23,7 +23,6 @@ footer {
         max-width: 1400px;
         display: flex;
         flex-direction: row;
-        align-items: center;
         justify-content: center;
 
         .fsocial {
@@ -42,17 +41,24 @@ footer {
         }
 
         .links {
+            .articles {
+                display: flex;
+                flex-direction: column;
+                gap: 8px;
+                text-decoration: underline;
+            }
             &:nth-child(2){
                 a{
                     &:hover{
                     transform: translateX(10px);
 
                     }
+                    text-wrap: wrap !important;
                 }
             }
             margin-left: 40px;
             margin-right: 40px;
-            width: 400px;
+            width: 100%;
             h2{
                 font-weight: 700;
                 padding-bottom: 4px;

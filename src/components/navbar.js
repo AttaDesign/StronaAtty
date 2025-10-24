@@ -71,7 +71,7 @@ const Navbar = () => {
                         </li>
                         
                         <li className="animation_1_1">
-                            <Link  onClick={()=>setShowMenu(false)} href="/contact" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;4&#62;</span>Kontakt</Link>
+                            <Link  onClick={()=>setShowMenu(false)} href="/#Contactus" className='row menu_link'><span aria-hidden="true" className='numb'>&nbsp; &nbsp;4&#62;</span>Kontakt</Link>
                         </li>
                         <li>
                         </li>

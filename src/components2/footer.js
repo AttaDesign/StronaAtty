@@ -20,12 +20,8 @@ export default function Footer() {
                 </div>
                 <div className="links">
                     <h2>Links</h2>
-                    <Link href='/'>Home</Link>
-                    <Link href='/contact'>Contact</Link>
-                    <Link href='/business-websites'>Business Websites</Link>
-                    <Link href='/online-stores'>Online Stores</Link>
-                    <Link href='/landing-page'>Landing Page</Link>
-                    <Link href='/seo-applications'>SEO, Applications</Link>
+                    <Link href='/'>3 najważniejsze czynniki dlaczego twoi klienci nie mają pieniędzy</Link>
+                    
                 </div>
             </div>
             <div className="attacopy">
