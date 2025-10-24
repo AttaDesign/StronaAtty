@@ -59,7 +59,7 @@ export const metadata = {
   },
 }
 
-export default function PrzykładowyBlogPost() {
+export default function DlaczegoSzybkoscStronyJestKluczowa() {
   return (
     <>
       <BlogSidebar telefon={"+48 572 057 499"} opis={"Nie tworzymy stron z szablonów, tworzymy indywidualne szablony dla każdego klienta. Nasz proces opiera się na 3 krokach: Analiza i makieta → Projektowanie designu→ Zaimplementowanie panelu administracyjnego"} />
@@ -87,7 +87,7 @@ export default function PrzykładowyBlogPost() {
             </div>
 
             <p className="article-text">
-              Słynne badanie "Response Times: The 3 Important Limits" autorstwa Jakoba Nielsena (autorytetu w dziedzinie usability) jasno określa, jak postrzegamy czas reakcji systemu:<br></br><br></br>
+              Słynne badanie  &ldquo;Response Times: The 3 Important Limits&rdquo; autorstwa Jakoba Nielsena (autorytetu w dziedzinie usability) jasno określa, jak postrzegamy czas reakcji systemu:<br></br><br></br>
 
               0.1 sekundy: Taki czas reakcji jest odbierany jako natychmiastowy. Użytkownik ma poczucie bezpośredniej kontroli.<br></br><br></br>
               1.0 sekunda: To granica płynności. Użytkownik zauważa minimalne opóźnienie, ale jego tok myślenia nie zostaje przerwany.<br></br><br></br>
