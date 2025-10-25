@@ -4,6 +4,7 @@ import { useState, useRef } from 'react'
 import { animate, motion, spring, useAnimate } from "framer-motion"
 import { Source_Code_Pro } from 'next/font/google'
 import Link from 'next/link'
+import { useRouter, usePathname } from 'next/navigation';
 
 const sourceCode = Source_Code_Pro({
     subsets: ['latin'],
@@ -30,14 +31,24 @@ const Navbar = () => {
         }
     }
     const [showMenu, setShowMenu] = useState(false);
-   function handleLinkClick(e, id) {
+   
+
+  const router = useRouter();
+  const pathname = usePathname();
+
+  function handleLinkClick(e, id) {
     e.preventDefault();
     setShowMenu(false);
-    // Correct usage for scrolling into view:
-    document.querySelector(id).scrollIntoView({
-        behavior: 'smooth'
-    });
-}
+
+    if (pathname === '/') {
+      // Jesteśmy na stronie głównej → normalny scroll
+      document.querySelector(id)?.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      // Na innej stronie → przekierowanie na stronę główną z hashem
+      router.push('/' + id); // np. "/#kontakt"
+    }
+  }
+
 
     function HandleMenu() {
         setShowMenu(!showMenu);

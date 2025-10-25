@@ -7,7 +7,7 @@ export default function Footer() {
             <div className="footerbox">
                 <div className="links">
                     <h2>Kontakt</h2>
-                    <a href='tel:+48531436420'>+48&nbsp;531&nbsp;436&nbsp;420</a>
+                    <a href='tel:+729295373'>+48&nbsp;729&nbsp;295&nbsp;373</a>
                     <a href='mailto:home@attadesign.pl'>home@attadesign.pl</a>
                     <Link target='blank' href='https://www.google.com/maps/place/Szlenkier%C3%B3w+2%2Fu3,+01-404+Warszawa/@52.2371761,20.9681115,17z/data=!3m1!4b1!4m5!3m4!1s0x471ecb7c72510091:0x386c1d335fbd9853!8m2!3d52.2371728!4d20.9706864?hl=pl-PL&entry=ttu'>Siedziba - Mapa</Link>
                     <Link href='/politykaprywatnosci'>Polityka prywatności</Link>

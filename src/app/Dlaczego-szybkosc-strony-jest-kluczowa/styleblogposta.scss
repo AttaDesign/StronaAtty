@@ -485,6 +485,24 @@ svg {
         right: 1400px !important;
     }
 }
+@media (max-width: 2523px) {
+    .sidebar {
+        right: 500px ;
+    }
+
+    .burger {
+        right: 700px !important;
+    }
+}
+@media (max-width: 2223px) {
+    .sidebar {
+        right: 350px;
+    }
+
+    .burger {
+        right: 550px !important;
+    }
+}
 @media (max-width: 1923px) {
     .sidebar {
         right: 300px ;
@@ -530,4 +548,7 @@ svg {
         top: 8px !important;
         right: 8px !important;
     }
+}
+.article-section  a {
+    color: rgb(106, 0, 193) !important;
 }

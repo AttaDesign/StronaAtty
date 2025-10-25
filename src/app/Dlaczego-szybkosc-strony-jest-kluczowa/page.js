@@ -17,6 +17,8 @@ import BlogSidebar from '@/components/blog/BlogSidebar';
 import AuthorBio from '@/components/blog/AuthorBio';
 import Head from 'next/head';
 
+import TooltipLink from '@/components/blog/ToolTipLink';
+
 // Ikony dla komponentu Timeline
 import IdeaIcon from '@/components/icons/IdeaIcon';
 import PaletteIcon from '@/components/icons/PaletteIcon';
@@ -85,7 +87,7 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
             <div className="featured-image">
               <Image alt='Dlaczego szybkość strony jest kluczowa? ATTA Design' width={865} height={504} src='/Dlaczego-szybkość-strony-jest-kluczowa-ATTA-Design.svg' />
             </div>
-
+          <h2 className="article-title">Dlaczego szybkość ma aż takie znaczenie?</h2>
             <p className="article-text">
               Słynne badanie  &ldquo;Response Times: The 3 Important Limits&rdquo; autorstwa Jakoba Nielsena (autorytetu w dziedzinie usability) jasno określa, jak postrzegamy czas reakcji systemu:<br></br><br></br>
 
@@ -102,7 +104,7 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
               <Image alt='Wykres ATTA Design' width={865} height={504} src='/Limits-ATTA-Design.svg' />
             </div>
 
-
+          <h2 className="article-title">Jaki wpływ ma szybkość strony na pozycjonowanie (SEO)</h2>
             <p className="article-text">
               Dla Google szybkość strony to nie jest sugestia – to twardy wymóg i jeden z najważniejszych czynników rankingowych.<br></br><br></br>
               Algorytmy bezpośrednio mierzą, jak strona ładuje się i reaguje na interakcje użytkownika. Jeśli Twoja strona jest wolna, Google uznaje ją za mniej wartościową dla odwiedzających.<br></br><br></br>
@@ -117,14 +119,12 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
 
 
             </p>
-
+        <h2 className='article-title'>Jak sprawdzić, czy moja strona jest szybka?</h2>
             <p className="article-text">
               Zanim zaczniemy optymalizację, musimy mieć twarde dane. W ATTA Design używamy profesjonalnych narzędzi, ale Ty sam możesz zrobić pierwszy krok diagnostyczny.
-              Naszym podstawowym i rekomendowanym narzędziem jest Google PageSpeed Insights: <Link href={"https://pagespeed.web.dev/"} target='_blank'>https://pagespeed.web.dev/</Link><br></br><br></br>
-
+              Naszym podstawowym i rekomendowanym narzędziem jest Google PageSpeed Insights: <TooltipLink text="PageSpeed Insights (PSI) to bezpłatne narzędzie stworzone przez Google, które służy do analizy wydajności stron internetowych. Mierzy ono, jak szybko stronę się ładuje i jak działa dana strona "><Link href={"https://pagespeed.web.dev/"} target='_blank'>https://pagespeed.web.dev/</Link></TooltipLink><br></br><br></br>
 
               Dlaczego to narzędzie? Ponieważ pokazuje Ci dokładnie to, co widzi Google. Nie tylko daje wynik w skali 0-100, ale przede wszystkim analizuje stronę pod kątem SEO.<br></br><br></br>
-
 
               <b>Wklej adres swojej strony i zobacz wyniki, szczególnie dla urządzeń mobilnych (bo to one są dziś priorytetem). Narzędzie da Ci też listę konkretnych rekomendacji, co &ldquo;boli&rdquo; Twoją witrynę i co należy poprawić.
                 Nie jesteś pewien, czy Twoja strona działa wystarczająco szybko? Skontaktuj się z nami w ATTA Design. Zrobimy profesjonalny audyt i zaproponujemy konkretne rozwiązania!</b>
