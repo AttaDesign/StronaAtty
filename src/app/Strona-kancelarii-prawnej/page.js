@@ -92,7 +92,7 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
           <h2 className="article-title">Co musi zawierać skuteczna strona kancelarii?</h2>
             <p className="article-text">
               Żeby strona zaczęła zarabiać na siebie musi spełniać pięć podstawowych kryteriów:<br></br><br></br>
-              <b>Filar 1:</b> Nowoczesny wygląd strony internetowa!<br></br>
+              <b>Filar 1:</b> Nowoczesny wygląd strony internetowej!<br></br>
               <b>Filar 2:</b> Fundament Techniczny (Szybkość i Mobile)<br></br>
               <b>Filar 3:</b> Oferta, którą rozumie klient (nie prawnik)<br></br>
               <b>Filar 4:</b> Informacje o Kancelarii <br></br>
