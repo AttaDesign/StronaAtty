@@ -103,19 +103,18 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
             <p className="article-text">
               Masz 3 sekundy. Tyle wystarczy, by użytkownik ocenił Twoją kancelarię na podstawie strony. Jeśli design jest stary i wygląda jak z 2015 roku, co klient myśli o Twoich usługach? Dokładnie to samo.<br></br><br></br>
               Nowoczesny wygląd to podstawa. To on odpowiada za przyciągnięcie uwagi klienta, on decyduje na czym klient skupi uwagę!<br></br><br></br>
-              <b>Co to znaczy "Nowoczesny" design dla Kancelarii?</b> To przemyślana, czytelna czcionka, profesjonalna kolorystyka. Profesjonalny i przemyślany układ strony, wyróżnienie najważniejszych sekcji. Subtelne animacje i mechaniki elementów strony. Klient chce zobaczyć, KTO mu pomoże. Zainwestuj w profesjonalną sesję zdjęciową. Pokaż autentyczne zdjęcia zespołu i biura. To buduje zaufanie, którego nie da się kupić w banku zdjęć.
-
+              <b>Co to znaczy <q>Nowoczesny</q> design dla Kancelarii?</b> To przemyślana, czytelna czcionka, profesjonalna kolorystyka. Profesjonalny i przemyślany układ strony, wyróżnienie najważniejszych sekcji. Subtelne animacje i mechaniki elementów strony. Klient chce zobaczyć, KTO mu pomoże. Zainwestuj w profesjonalną sesję zdjęciową. Pokaż autentyczne zdjęcia zespołu i biura. To buduje zaufanie, którego nie da się kupić w banku zdjęć.
             </p>
           <h2 className="article-title">Filar 2: Fundament Techniczny (Szybkość i Mobile)</h2>
-            <p className="article-text">
+          <p className="article-text">
               To jest Twój twardy wymóg. Fundament, na którym stoi cała reszta. Możesz mieć najpiękniejszy design, ale jeśli strona nie działa, to jest bezwartościowa.<br></br><br></br>
-              <b>Szybkość:</b> Jak pisałem w moim ostatnim artykule [HIPERŁĄCZE]!!!!!!!!!!!!!!!!!!!!!!!!!!!!!, nikt nie lubi czekać. Czas reakcji powyżej 2-5 sekund to KATASTROFA. Google widzi wolną stronę i obniża Twój ranking (SEO). <br></br>
-              <b>Responsywność:</b> Twój klient prawdopodobnie szuka pomocy na smartfonie. Często "na już". Jeśli musi powiększać tekst, szukać przycisku albo strona mu się "rozjeżdża" – właśnie tracisz klienta. Strona musi być idealnie dopasowana do telefonu!
+              <b>Szybkość:</b> Jak pisałem w moim <TooltipLink text="Dlaczego szybkość strony jest kluczowa?"><Link href={"https://www.attadesign.pl/Dlaczego-szybkosc-strony-jest-kluczowa"} target='_blank'>ostatnim artykule</Link></TooltipLink>, nikt nie lubi czekać. Czas reakcji powyżej 2-5 sekund to KATASTROFA. Google widzi wolną stronę i obniża Twój ranking (SEO). <br></br>
+              <b>Responsywność:</b> Twój klient prawdopodobnie szuka pomocy na smartfonie. Często <q>na już</q>. Jeśli musi powiększać tekst, szukać przycisku albo strona mu się <q>rozjeżdża</q> – właśnie tracisz klienta. Strona musi być idealnie dopasowana do telefonu!
             </p>
           <h2 className="article-title">Filar 3: Oferta, którą rozumie klient (nie prawnik)</h2>
             <p className="article-text">
               To błąd większości kancelarii. Komunikujecie się prawniczym żargonem.<br></br><br></br>
-              Klient nie myśli "potrzebuję usługi z zakresu prawa cywilnego". On myśli "chcę się rozwieść" albo "sąsiad zalał mi mieszkanie". Mów wprost od czego jesteś specjalistą: <br></br><br></br>
+              Klient nie myśli <q>potrzebuję usługi z zakresu prawa cywilnego</q>. On myśli <q>chcę się rozwieść</q> albo <q>sąsiad zalał mi mieszkanie</q>. Mów wprost od czego jesteś specjalistą: <br></br><br></br>
               <b>Zamiast:</b> Prawo Rodzinne.<br></br>
               <b>Napisz:</b> Rozwody, Alimenty, Podział Majątku, Kontakty z dzieckiem. <br></br><br></br>
               Klient musi znaleźć na stronie swój konkretny problem. Jeśli nie rozumie o czym piszesz pójdzie do kogoś, kto mówi po ludzku. Jasna oferta to szybsza konwersja.
@@ -124,18 +123,18 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
             <p className="article-text">
               Z niewiadomego mi powodu prawnicy kochają pisać o sobie. Efekt? Nieczytelna ściana tekstu, prawnicze CV i historia od 1998 roku. Powiem wprost: nikogo to nie interesuje na stronie głównej. Długie opisy przenieś na dedykowane podstrony.<br></br><br></br>
               Pamiętaj, <b>użytkownicy nie czytają w sieci.</b> Badania Nielsena są jasne: <b>blok tekstu dłuższy niż 4 linijki wizualnie odstrasza.</b> Klient szuka konkretów.<br></br><br></br>
-              Dlatego na stronie musi panować żelazna hierarchia. Na samą górę idą informacje kluczowe dla klienta: "Specjalizacje" i odpowiedź na pytanie: "KTO mi pomoże?". Zaufanie budujesz, pokazując profesjonalne zdjęcia zespołu. Zamiast nudnego CV, daj dwa zdania konkretu: specjalizacja i doświadczenie (np. "15 lat w prawie rodzinnym, 200+ spraw"). Mniej ważne informacje, jak długa historia kancelarii, przesuń na sam dół.
+              Dlatego na stronie musi panować żelazna hierarchia. Na samą górę idą informacje kluczowe dla klienta: <q>Specjalizacje</q> i odpowiedź na pytanie: <q>KTO mi pomoże?</q>. Zaufanie budujesz, pokazując profesjonalne zdjęcia zespołu. Zamiast nudnego CV, daj dwa zdania konkretu: specjalizacja i doświadczenie (np. <q>15 lat w prawie rodzinnym, 200+ spraw</q>). Mniej ważne informacje, jak długa historia kancelarii, przesuń na sam dół.
             </p>
 
             <div className="featured-image">
-              <Image alt='Wezwanie do działania ATTA Design' width={865} height={504} src='/Wezwanie-do-dzialania-ATTA-Design.webp' />
+              <Image alt='Wezwanie do działania ATTA Design' width={865} height={504} src='/Wezwanie-do-działania-ATTA-Design.webp' />
             </div>
           <h2 className="article-title">Filar 5: Logiczna Konwersja (Jasne Wezwanie do Działania)</h2>
             <p className="article-text">
               Klient jest na stronie. Podoba mu się design (Filar 1), strona działa szybko (Filar 2), znalazł swoją usługę (Filar 3) i nawet Cię polubił (Filar 4).<br></br><br></br>
               I co teraz ma zrobić?<br></br><br></br>
               Twoja strona musi go prowadzić prosto do celu. Celem jest kontakt.<br></br><br></br>
-              <b>CTA (Call to Action):</b>Każda podstrona musi mieć jasne "wezwanie do działania". "Umów konsultację", "Zadzwoń teraz", "Napisz do nas".<br></br>
+              <b>CTA (Call to Action):</b>Każda podstrona musi mieć jasne <q>wezwanie do działania</q>. <q>Umów konsultację</q>, <q>Zadzwoń teraz</q>, <q>Napisz do nas</q>.<br></br>
               <b>Nie każ mu szukać:</b>Numer telefonu musi być widoczny w nagłówku i klikalny na telefonie. Formularz kontaktowy ma być prosty – imię, telefon/e-mail, krótki opis sprawy. Nie twórz 15-polowego formularza, bo nikt go nie wypełni.
             </p>
           <h2 className="article-title">Podsumowanie</h2>
@@ -143,15 +142,10 @@ export default function DlaczegoSzybkoscStronyJestKluczowa() {
               Przestań traktować swoją stronę jak ozdobną ulotkę, która jest tylko kosztem. To ma być Twój najskuteczniejszy pracownik, który pracuje 24/7 na Twój sukces.<br></br><br></br>
               <b>W ATTA Design budujemy strony, które spełniają wszystkie te warunki. Tworzymy narzędzia, które budują zaufanie i realnie generują zapytania. Skontaktuj się z nami i sprawdź, co możemy zrobić dla Twojej kancelarii!</b>
             </p>
-            
-
             {/* Tu kończysz pisać artykuł */}
             <AuthorBio name={authorData.name} bio={authorData.bio} />
-
           </div> {/* */}
-
         </div> {/* */}
-
       <Footer></Footer>
       </div> {/* */}
       <Analytics />
