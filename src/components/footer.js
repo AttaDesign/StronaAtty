@@ -26,6 +26,7 @@ export default function Footer() {
                     <h2>Ważne artykuły</h2>
                     <div className='articles' >
                         <Link href='/Dlaczego-szybkosc-strony-jest-kluczowa'>Dlaczego szybkość strony jest kluczowa?</Link>
+                        <Link href='/Strona-kancelarii-prawnej'>Strona kancelarii prawnej: 5 kluczowych elementów, które zmieniają wizytówkę w maszynę do pozyskiwania klientów</Link>
                     </div>
                 </div>
             </div>
