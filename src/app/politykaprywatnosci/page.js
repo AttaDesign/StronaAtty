@@ -5,6 +5,20 @@ import Image from 'next/image';
 import AttaIMG from '@/components/attaService';
 import Navbar from '@/components/navbar';
 
+// Dodaj ten fragment na górze pliku
+import { metadata } from '../layout'; // Importuj, jeśli potrzebujesz innych metadanych, ale dla noindex wystarczy to:
+
+export const metadata = {
+  robots: {
+    index: false, // Mówi Google, aby nie indeksowało tej strony
+    follow: true, // Ale pozwala śledzić linki na tej stronie
+  },
+};
+
+// ... reszta twojego pliku (import './pp.scss'; itd.)
+export default function PolitykaPrywatnosci() {
+    // ...
+}
 
 export default function PolitykaPrywatnosci() {
     return (
