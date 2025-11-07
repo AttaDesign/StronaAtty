@@ -18,6 +18,8 @@ const orbi = Orbitron({
   weight: ['600', '400', '500', '700'],
 })
 
+// src/app/layout.js
+
 export const metadata = {
   // Odpowiednik: <title>{metadata.title}</title>
   title: 'ATTA Web Agency - strony na zamówienie',
@@ -27,12 +29,18 @@ export const metadata = {
   
   metadataBase: new URL("https://attadesign.pl/"),
 
-  // Odpowiednik: <link rel="canonical" href={metadata.metadataBase.href} />
+  // 
+  //  TUTAJ JEST KLUCZOWA POPRAWKA KANONICZNA
+  // 
   alternates: {
-    canonical: '/en', // "/" łączy się z metadataBase, dając "https://attadesign.pl/"
+    canonical: '/', // Strona polska (/) wskazuje na samą siebie
+    languages: {
+      'pl-PL': '/',
+      'en': '/eng', // Wskazuje na poprawny odpowiednik angielski
+    },
   },
   
-  // Odpowiednik: <meta name="robots" content="all" />
+  // TUTAJ JEST TWOJA POPRAWKA NOINDEX (jest poprawna)
   robots: {
     index: true,
     follow: true,
