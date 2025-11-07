@@ -5,6 +5,18 @@ import Image from 'next/image';
 import AttaIMG from '@/components/attaService';
 import Navbar from '@/components/navbar';
 
+// Dodaj ten fragment na górze pliku
+export const metadata = {
+  robots: {
+    index: false,
+    follow: true,
+  },
+};
+
+// ... reszta twojego pliku (import './pp.scss'; itd.)
+export default function PolitykaPrywatnosci() {
+    // ...
+}
 
 export default function PolitykaPrywatnosci() {
     return (
