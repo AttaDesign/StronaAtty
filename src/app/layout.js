@@ -20,7 +20,7 @@ const orbi = Orbitron({
 
 // src/app/layout.js
 
-// src/app/layout.js
+// src/app/layaout.js
 
 export const metadata = {
   // Odpowiednik: <title>{metadata.title}</title>
