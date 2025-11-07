@@ -23,7 +23,7 @@ export const metadata = {
   title: 'ATTA Web Agency - strony na zamówienie',
   
   // Odpowiednik: <meta name="description" content={metadata.description} />
-  description: 'Tworzymy z precyzją eleganckie strony internetowe, które opowiedzą hisotrię twojej frimy.',
+  description: 'Tworzymy z precyzją eleganckie strony internetowe, które opowiedzą historię twojej frimy.',
   
   metadataBase: new URL("https://attadesign.pl/"),
 
