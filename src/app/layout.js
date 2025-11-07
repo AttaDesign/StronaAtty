@@ -20,6 +20,8 @@ const orbi = Orbitron({
 
 // src/app/layout.js
 
+// src/app/layout.js
+
 export const metadata = {
   // Odpowiednik: <title>{metadata.title}</title>
   title: 'ATTA Web Agency - strony na zamówienie',
@@ -36,7 +38,7 @@ export const metadata = {
     canonical: '/', // Strona polska (/) wskazuje na samą siebie
     languages: {
       'pl-PL': '/',
-      'en': '/eng', // Wskazuje na poprawny odpowiednik angielski
+      'en': '/eng', // Wskazuje na poprawny odpowiednik angielski /eng
     },
   },
   
