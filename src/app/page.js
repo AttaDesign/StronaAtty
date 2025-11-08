@@ -10,6 +10,15 @@ import { AnimatePresence } from 'framer-motion'
 import Footer from '@/components/footer'
 import ContactSection from '@/components/ContactSection'
 import { Analytics } from "@vercel/analytics/next"
+
+export const metadata = {
+  robots: {
+    index: true,
+    follow: true,
+  },
+};
+
+// app/page.js
 export default function Home() {
   return (
     <>
